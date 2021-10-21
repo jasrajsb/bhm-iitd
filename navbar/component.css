@@ -1,0 +1,94 @@
+
+.navbar-brand{
+    font-weight:bold;
+}
+
+.navbar-toggler{
+    padding: 2px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+   outline-color: rgb(150,150,150);
+}
+
+.navbar-toggler-icon{
+    width: 30px;
+    height:30px;
+}
+
+.nav-link{
+    font-size:small;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color:rgb(100,100,100);
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link:active,
+.navbar-nav .nav-item .nav-link:focus
+{
+    background-color: rgb(235,235,235);
+    border-radius: 10px;
+    color: black;
+}
+
+
+.dropdown-item{
+    font-size: small;
+    color:rgb(80,80,80);
+}
+
+.dropdown-item:active{
+    background-color:rgb(230,230,230);
+    color: black;
+}
+
+.d-inline-flex{
+    height: 35px;
+    align-items: center;
+    background-color:rgb(235,235,235);
+    width:200px;
+    border-radius: 20px;
+}
+
+.d-inline-flex .form-control{
+    background-color:transparent; 
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    padding-left: 10px;
+}
+
+.d-inline-flex .btn{
+    border-radius: 20px;
+    background-color:transparent; 
+    padding-right: 0px;
+}
+
+.d-inline-flex .btn:focus,
+.d-inline-flex .btn:active{
+    box-shadow:none;
+    outline:none;
+}
+
+.d-inline-flex .form-control:focus,
+.d-inline-flex .form-control:active{
+    box-shadow:none;
+    outline:none;
+}
+
+@media only screen and (max-width: 1000px){
+   
+.d-inline-flex{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+}
+
+
