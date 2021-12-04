@@ -1,5 +1,4 @@
 import './component.css'
-import iit_logo from './logo_iit.png';
 import hero from './hero_original.jpg';
 function Hero() {
     return <div>

@@ -1,4 +1,3 @@
-import time from './../../assets/time.png';
 import './component.css';
 import CalendarEvent from '../calendar-event/component.js';
 function Calendar(){

@@ -93,3 +93,18 @@
 }
 
 
+.search-bar{
+    border-radius: 10px!important;
+}
+.toggle-icon{
+    font-size: 20px;
+    text-align: center;
+}
+.navbar-toggler{
+    background: #ffffff;
+    border: transparent;
+    color: #000!important;
+}
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+    outline: none!important;
+}

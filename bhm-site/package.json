@@ -1,7 +1,7 @@
 {
   "name": "bhm-site",
   "version": "0.1.0",
-  "homepage": "https://jasrajsb.github.io/bhm-site/",
+  "homepage": "http://localhost:3000",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
@@ -13,6 +13,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router": "^5.2.1",
+    "react-router-dom": "^6.0.1",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },

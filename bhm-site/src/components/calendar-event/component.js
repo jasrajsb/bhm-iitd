@@ -1,5 +1,4 @@
 import './component.css';
-import time from './../../assets/time.png';
 
 function CalendarEvent(){
     return <div className="container">
