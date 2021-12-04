@@ -1,4 +1,5 @@
 import './component.css';
+import {Link} from "react-router-dom";
 
 function Footer() {
     return <div className="footer py-2">
@@ -8,25 +9,25 @@ function Footer() {
                     <ul>
                         <span className="font-weight-bold footer-heading">Hostels</span><br />
 
-                        <li><a href="">Aravali</a></li>
-                        <li><a href="">Girnar</a></li>
-                        <li><a href="">Himadri</a></li>
-                        <li><a href="">Jwalamukhi</a></li>
-                        <li><a href="">Kailash</a></li>
-                        <li><a href="">Karakoram</a></li>
-                        <li><a href="">Kumaon</a></li>
+                        <li><Link to="/hostel/aravali">Aravali</Link></li>
+                        <li><Link to="/hostel/girnar">Girnar</Link></li>
+                        <li><Link to="/hostel/himadri">Himadri</Link></li>
+                        <li><Link to="/hostel/jwalamukhi">Jwalamukhi</Link></li>
+                        <li><Link to="/hostel/kailash">Kailash</Link></li>
+                        <li><Link to="/hostel/karakoram">Karakoram</Link></li>
+                        <li><Link to="/hostel/kumaon">Kumaon</Link></li>
                     </ul>
                 </div>
                 <div className="col-6 col-md-3 footer_hostels">
                     <ul>
                         <span className="font-weight-bold">&nbsp;</span>
                         <span className="font-weight-bold">&nbsp;</span>
-                        <li><a href="">Nilgiri</a></li>
-                        <li><a href="">Satpura</a></li>
-                        <li><a href="">Shivalik</a></li>
-                        <li><a href="">Udaigiri</a></li>
-                        <li><a href="">Vindhyachal</a></li>
-                        <li><a href="">Zanskar</a></li>
+                        <li><Link to="/hostel/nilgiri">Nilgiri</Link></li>
+                        <li><Link to="/hostel/satpura">Satpura</Link></li>
+                        <li><Link to="/hostel/shivalik">Shivalik</Link></li>
+                        <li><Link to="/hostel/udaigiri">Udaigiri</Link></li>
+                        <li><Link to="/hostel/vindhyachal">Vindhyachal</Link></li>
+                        <li><Link to="/hostel/zanskar">Zanskar</Link></li>
                     </ul>
                 </div>
             </div>
@@ -41,9 +42,9 @@ function Footer() {
                     <div className="">
                         <h6 className="text-left mb-2 font-weight-bold">BHM IIT Delhi</h6>
                         <ul className="nav">
-                            <li className="nav-item contact-li"><a href="https://www.linkedin.com/company/board-for-hostel-management" className="footer-link"><i className="fa fa-linkedin contact-icon"></i></a></li>
-                            <li className="nav-item contact-li"><a href="https://www.instagram.com/bhmiitd/" className="footer-link"><i className="fa fa-instagram contact-icon"></i></a></li>
-                            <li className="nav-item contact-li"><a href="https://m.facebook.com/bhm.iitd" className="-link"><i className="fa fa-facebook  contact-icon"></i></a></li>
+                            <li className="nav-item contact-li"><Link to="/hostel/https://www.linkedin.com/company/board-for-hostel-management" className="footer-link"><i className="fa fa-linkedin contact-icon"></i></Link></li>
+                            <li className="nav-item contact-li"><Link to="/hostel/https://www.instagram.com/bhmiitd/" className="footer-link"><i className="fa fa-instagram contact-icon"></i></Link></li>
+                            <li className="nav-item contact-li"><Link to="/hostel/https://m.facebook.com/bhm.iitd" className="-link"><i className="fa fa-facebook  contact-icon"></i></Link></li>
                         </ul>
                         <br />
                     </div>
@@ -69,7 +70,7 @@ function Footer() {
 
         </div>
         {/* <div className="enquire mr-5">
-            <a href="#" >Enquire Now</a>
+            <Link to="/hostel/#" >Enquire Now</Link>
         </div> */}
         {/* <h5 style={{ float: "left" }} className="ml-5">Copyright &#169; 2021 BHM IIT Delhi</h5> */}
     </div>
