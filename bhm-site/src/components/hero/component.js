@@ -11,10 +11,10 @@ function Hero() {
   </ol>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img className="d-block w-100 imagic" src={hero} alt="First slide" style={{objectFit:"cover", height:"600px", opacity:"90%"}}/>
+      <img className="d-block w-100 imagic" src={hero} alt="First slide" style={{objectFit:"cover", height:"600px"}}/>
     </div>
     <div className="carousel-item">
-      <img className="d-block w-100 imagic" src={exp} alt="Second slide" style={{objectFit:"cover", height:"600px",opacity:"90%"}}/>
+      <img className="d-block w-100 imagic" src={exp} alt="Second slide" style={{objectFit:"cover", height:"600px"}}/>
     </div>
   </div>
   <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
