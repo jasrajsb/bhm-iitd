@@ -12,7 +12,7 @@ import semester_withdrawal from '../../assets/semester_withdrawal.pdf';
 
 
 function Navbar() {
-  return <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+  return <nav className="navbar navbar-expand-lg navbar-light bg-transparent fixed-top navbar-fixed-top">
     <div className="container-fluid">
       <Link className="navbar-brand" to="/bhm-site">BHM - IIT Delhi</Link>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

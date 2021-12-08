@@ -3,7 +3,7 @@ import hero from './hero_original.jpg';
 import exp from './example.jpg';
 
 function Hero() {
-    return <div className="container-fluid">
+    return <div className="">
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
   <ol className="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
@@ -29,7 +29,7 @@ function Hero() {
 
 <div class="main-text" style={{position:"absolute",top:"100px",width:"100%"}}>
             <div class="col-12">
-                <h1 class="intro-text" style={{textAlign:"center",textShadow: "0.5px 0.5px 0.5px #2222226b",fontWeight:"bolder"}}>Board for Hostel Management</h1>   
+                <h1 class="intro-text" style={{textAlign:"center",textShadow: "1px 1px 1px #2222226b",fontWeight:"bolder", color:'#fff'}}>Board for Hostel Management</h1>   
             </div>
 </div>
 
