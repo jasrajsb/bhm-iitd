@@ -7,7 +7,12 @@ function ProfileCard(props) {
             <div className="profile-info px-3 py-3 text-left">
                 <div className="profile-name">{props.name}</div>
                 <div className="profile-designation">{props.designation}</div>
+                <div className="social-icons">
+                    <a class="social-icon" href="/hostel/https://www.linkedin.com/company/board-for-hostel-management"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a class="social-icon" href="/hostel/https://www.linkedin.com/company/board-for-hostel-management"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    {/* <a class="social-icon" href="/hostel/https://www.linkedin.com/company/board-for-hostel-management"><i class="fa fa-linkedin" aria-hidden="true"></i></a> */}
 
+                </div>
             </div>
 
         </div>
