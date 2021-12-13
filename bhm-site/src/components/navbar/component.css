@@ -1,39 +1,41 @@
-	
 .navbar-brand{
     font-weight: 800;
     font-size: 1.25rem;
-    color: black!important;
+    color: black;
 }
 
-.navbar-toggler{
-    padding: 0px;
-}	
-    
-    .navbar-nav a{
-		/*color:#fff;*/
-        color: black!important;
-		/*font-family: 'neue_montrealmedium';*/
-        text-decoration: none;
-        /*background-color: transparent;*/
-        -webkit-text-decoration-skip: objects;
-        font-weight: 700;
-        font-size: smaller;
+.nav-link{
+	margin-left: 14px;
+	margin-right: 14px;
+	color: black!important;
+    font-weight: 700;
+    font-size: smaller;
+	padding-left: 1px !important;
+	padding-right: 1px !important;
+	padding-bottom: 3px!important;
+}
+
+.dropdown-item{
+	padding-left:15px!important ;
+}
+ 
+.navbar-nav a{
+		color: black!important;
+		font-weight: 700;
+		font-size: smaller;
 		background-image: linear-gradient(#000, #000);
 		background-position: 0% 100%;
 		background-repeat: no-repeat;
 		background-size: 0% 3px;
 		transition: background-size .3s;
-		margin: 0px 15px;
-		padding: 4px 0!important;
-	}
 
-	.navbar-nav a:hover{ 
-		/*color:#fff;*/
-		background-size: 100% 3px;
-	}
+}
+
+.navbar-nav a:hover{ 
+	background-size: 100% 3px;
+}
 
 .navbar .nav-link .dropdown-toggle{
-		/*color:#fff !important;*/
         text-decoration: none;
         background-color: transparent !important;
         -webkit-text-decoration-skip: objects !important;
@@ -212,8 +214,6 @@
 		
 	
 	}
-
-
 
 	.navbar-fixed-top.scrolled {
 		background-color: #fff !important;
