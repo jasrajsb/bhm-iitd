@@ -1,6 +1,9 @@
 import './component.css'
-import hero from './hero_original.jpg';
-import exp from './example.jpg';
+import Gallery1 from './gallery1.jpg';
+import Gallery2 from "./gallery2.jpg";
+import Gallery3 from "./gallery3.jpg";
+import Gallery4 from "./gallery4.jpg";
+
 
 function Hero() {
     return <div className="">
@@ -8,18 +11,34 @@ function Hero() {
   <ol className="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
   </ol>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img className="d-block w-100 imagic" src={hero} alt="First slide" style={{objectFit:"cover", height:"600px"}}/>
+      <img className="d-block w-100 imagic" src={Gallery1} alt="First slide" style={{objectFit:"cover", height:"600px"}}/>
     </div>
     <div className="carousel-item">
-      <img className="d-block w-100 imagic" src={exp} alt="Second slide" style={{objectFit:"cover", height:"600px"}}/>
+      <img className="d-block w-100 imagic" src={Gallery2} alt="Second slide" style={{objectFit:"cover", height:"600px"}}/>
+    </div>
+    <div className="carousel-item">
+      <img className="d-block w-100 imagic" src={Gallery3} alt="Second slide" style={{objectFit:"cover", height:"600px"}}/>
+    </div>
+    <div className="carousel-item">
+      <img className="d-block w-100 imagic" src={Gallery4} alt="Second slide" style={{objectFit:"cover", height:"600px"}}/>
     </div>
   </div>
   <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="sr-only">Previous</span>
+  </a>
+  <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="sr-only">Next</span>
+  </a>
+  <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="sr-only">Next</span>
   </a>
   <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
