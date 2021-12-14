@@ -1,6 +1,6 @@
-.hostel-hero {
+
+.hero-content{
   height: 75vh;
-  margin-bottom: 85px;
 }
 
 .hero-heading {
@@ -8,21 +8,18 @@
   font-weight: 600;
 }
 
-.hero-content {
-  max-height: 100%;
-}
-
 .hero-img {
   border-radius: 15px;
 }
+
 .hero-card {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   background-color: #fff;
   border-radius: 15px;
-  bottom: -55px;
   width: calc(100% - 70px);
   margin: 0 35px;
   align-items: center;
+  margin-top: -100px;
 }
 
 .hostel-name {
@@ -39,7 +36,60 @@
 }
 
 .insta{
-    font-size: larger;
-    color: #000000aa;
+    font-size:30px;
+    color: black;
     font-weight: bold;
+    background-color:#eaeaea;
+    border-radius:  10px;
+    height: 40px;
+    width: 40px; 
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
 }
+
+.face{
+  font-size:30px;
+  color: black;
+  font-weight: bold;
+  background-color:#eaeaea;
+  border-radius:  10px;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.social{
+  padding: 0px;
+  margin: 0;
+  align-items: center;
+  text-align: center;
+}
+
+.map{
+    width:100%;
+    border-radius:  10px;
+    border: none;
+    height: 100px;
+}
+
+.col-heading{
+  font-weight: bold;
+}
+
+.complain{
+  background-color:#eaeaea;
+  border: none;
+  outline: none;
+  box-shadow:none;
+}
+
+.complain:active,.complain:focus{
+  border: none;
+  outline: none;
+  box-shadow:none;
+}
+
+
