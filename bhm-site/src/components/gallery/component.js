@@ -1,42 +1,54 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
-import AravaliImages from './AravaliImages';
+import React, { useState } from 'react';
 import './component.css';
-import GirnarImages from './GirnarImages';
-import HimadriImages from './HimadriImages';
-import JwalaImages from './JwalaImages';
-import KailashImages from './KailashImages';
-import KarakoramImages from './KarakoramImages';
-import KumaonImages from './KumaonImages';
-import NilgiriImages from './NilgiriImages';
-import SatpuraImages from './SatpuraImages';
-import ShivalikImages from './ShivalikImages';
-import UdaigiriImages from './UdaigiriImages';
-import VindhyachalImages from './VindhyachalImages';
-import ZanskarImages from './ZanskarImages';
+import FullCarousel from './FullCarousel';
 
-export default function Gallery({ hostel }) {
+export default function Gallery({ images_json }) {
 
-    let images = (hostel === 'Aravali') ? AravaliImages : (hostel === 'Girnar') ? GirnarImages : (hostel === 'Himadri') ? HimadriImages : (hostel === 'Jwala') ? JwalaImages : (hostel === 'Kailash') ? KailashImages : (hostel === 'Karakoram') ? KarakoramImages : (hostel === 'Kumaon') ? KumaonImages : (hostel === 'Nilgiri') ? NilgiriImages : (hostel === 'Satpura') ? SatpuraImages : (hostel === 'Shivalik') ? ShivalikImages : (hostel === 'Udaigiri') ? UdaigiriImages : (hostel === 'Vindhyachal') ? VindhyachalImages : (hostel === 'Zanskar') ? ZanskarImages : [];
+    const [images, setImages] = useState([]);
+    const [fullCarouselOpen, setFullCarouselOpen] = useState(false);
+
+    console.log(images_json);
+    const galleryFull = (s) => {
+        // let images1 = (s === 'Title1') ? AravaliImages : (s === 'Title2') ? GirnarImages : (s === 'Title3') ? HimadriImages : (s === 'Title4') ? JwalaImages : (s === 'Title5') ? KailashImages : [];
+        let images1 = images_json[s].images;
+        setImages(prevImages => images1);
+        // console.log(images);
+        setFullCarouselOpen(true);
+        document.body.style.overflow = 'hidden';
+    }
+
+    const galleryFullClose = () => {
+        setFullCarouselOpen(false);
+        document.body.style.overflow = 'visible';
+    }
 
     return (
-        <div style={{ display: 'block', width: "75vw", height: "auto", margin: "auto" }}>
-            {/* <div className="caraousel">
-                <button id="prevBtn" onClick={prevClick}><FontAwesomeIcon icon={faArrowLeft} /></button>
-                <button id="nextBtn" onClick={nextClick}><FontAwesomeIcon icon={faArrowRight} /></button>
-                <div className="caraousel-slider" style={{ transform: `translateX(calc(${counter}*60vw*-1))` }}>
-                    {AravaliImages.map((photo, key) => {
-                        return <img src={photo} key={key}></img>
-                    })}
-                </div>
-            </div> */}
-            <Carousel fade>
-                {images.map((photo, index) => {
-                    return <Carousel.Item interval={2000}>
-                        <img src={photo} className="d-block w-100" key={index} alt={hostel} />
-                    </Carousel.Item>
-                })}
-            </Carousel>
-        </div>
+        <>
+            <div className="gallery-grid">
+                {
+                    Object.keys(images_json).map((index, key) => {
+                        console.log(images_json[key + 1]);
+                        // [...Array(Object.keys)].map((x, i) => {
+                        let { title, cover_image, images1 } = images_json[key + 1];
+
+                        return (<div className="gallery-grid-item">
+                            <img src={cover_image} alt={title} className="gallery-grid-cover" />
+                            <div className='gallery-grid-card '>
+                                <p className='gallery-grid-title'>{title}</p>
+                                <button className="gallery-grid-btn" onClick={() => galleryFull(key + 1)}>More Images</button>
+                            </div>
+                        </div>)
+                    })
+                }
+                {/* <div className="gallery-grid-item">
+                    <img src={AravaliImages[0]} alt="image1" className="gallery-grid-cover" />
+                    <div className='gallery-grid-card '>
+                        <p className='gallery-grid-title'>Title2</p>
+                        <button className="gallery-grid-btn" onClick={() => galleryFull("Title2")}>More Images</button>
+                    </div>
+                </div> */}
+            </div>
+            <FullCarousel images={images} onClose={() => galleryFullClose()} open={fullCarouselOpen} />
+        </>
     )
 }
