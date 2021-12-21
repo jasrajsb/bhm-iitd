@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
     display: flex;
@@ -10,55 +10,68 @@ body{
     align-items: center;
     min-height: 100vh;
 }
-
 #mess-menu{
     padding: 1%;
 }
-
 #mess-heading{
     padding-bottom: 1%;
+    font-size: x-large;
 }
-
 #menu-container{
-    width: 90%;
+    width: 100%;
     align-items: center;
     align-self: center;
     text-align: center;
     display: flex;
 }
-
-
+h6{
+    margin-top: 4px;
+    margin-bottom: 2px;
+    font-size: smaller;
+}
+p{
+    font-size: 15px;
+}
 .box{
-    align-self: center;
+    /* align-self: center; */
+    float: left;
+    align-items: flex-start;
+    text-align: start;
     border-radius: 1em;
-    background-color: rgb(204, 201, 201);
+    background-color: rgb(231, 231, 231);
     margin: 2%;
 }
-
 .menu{
-    
     position: relative;
     align-items: center;
     align-self: center;
     margin-bottom: 1%;
 }
-.menu a{
+.link1{
     position: relative;
     align-self: center;
     align-content: center;
     margin: 0 2%;
     font-size: 1.25em;
-    color: rgb(8, 8, 8);
+    color: rgb(107, 107, 107);
     text-decoration: none;
 }
+.link1:focus{
+    /* background-color: aqua; */
+    text-decoration: none;
+    border-bottom: 4px solid black;
+    color: rgb(8, 8, 8);
+}
+.link1:hover{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
 
-#marker{
-    position: absolute;
-    left: 0;
-    width: 0;
-    height: 4px;
-    background-color: #000;
-    bottom: -2px;
-    transform: 0.5s;
-    border-radius: 4px;
+.box{
+    padding: 1%;
+    padding-left: 2%;
+}
+
+h6,p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
