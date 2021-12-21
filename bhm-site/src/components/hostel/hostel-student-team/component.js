@@ -9,7 +9,7 @@ function StudentTeam(props){
             <div className="row pt-">
                 {props.secys.map(secy=>{
                     return <div className="col-12 col-md-4">
-                    <ProfileCard name={secy.name} designation={secy.designation} image={secy.image||dosa}/>
+                    <ProfileCard name={secy.name} mail={secy.mail} linkedin={secy.linkedin} phone={secy.phone} designation={secy.designation} image={secy.image||dosa}/>
                 </div>
                 })}
                 {/* <div className="col-12 col-md-4">
