@@ -1,4 +1,3 @@
-import Hero from '../hero/component';
 import './component.css';
 import notices from '../../data/noticeBoard';
 

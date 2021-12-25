@@ -50,3 +50,20 @@
     display: flex;
 }
 
+.social-icons>a{
+  color: #fff!important;
+  margin: 5px;
+}
+
+.social-icons>a:hover{
+  color: #fff;
+  margin: 5px;
+  opacity: .8;
+}
+.social-icons{
+  margin-left: -5px;
+  margin-top: 5px;
+}
+.social-icons>a>i{
+  /* font-size: smaller; */
+}

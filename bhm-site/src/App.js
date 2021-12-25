@@ -5,6 +5,7 @@ import Footer from './components/footer/component';
 import Hostel from './components/hostel/component';
 import Navbar from './components/navbar/component.js';
 import Homepage from './pages/homepage';
+import FAQs from './pages/faqs/component';
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/hostel/:hostel" element={<Hostel />} />
-          <Route exact path='/' element={<Homepage />} />
+          <Route path="/hostel/:hostel" element={<Hostel/>} />
+          <Route exact path='/bhm-site' element={<Homepage/>} />
+          <Route path="/faqs" element = {<FAQs/>}/>
         </Routes>
         <Footer />
       </Router>

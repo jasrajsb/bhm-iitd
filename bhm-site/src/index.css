@@ -1,5 +1,5 @@
 body {
-  
+
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -33,7 +33,7 @@ code {
 }
 
 *{
-  font-family: 'Poppins' 
+  font-family: 'Poppins';
 }
 
 .heading{
@@ -42,6 +42,7 @@ code {
   width: 100%;
   text-align: center;
 }
+
 body{
   overflow-x: hidden;
 }

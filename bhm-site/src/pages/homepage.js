@@ -1,4 +1,6 @@
 import AboutUs from '../components/about-us/component';
+// import TeamStucture from '../components/team-structure/component';
+import Notices from '../components/notices/component';
 import Calendar from '../components/calendar/component';
 import Chiefs from '../components/chiefs/component';
 import Gallery from '../components/gallery/component';

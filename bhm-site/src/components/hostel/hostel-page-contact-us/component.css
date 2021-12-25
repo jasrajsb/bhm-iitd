@@ -1,0 +1,27 @@
+.contact-us .container .heading{
+    text-align: left;
+}
+
+.contact-us .container .heading .fas{
+    font-size: 28px;
+    margin-right:20px;
+    color:black;
+}
+
+.contact-us .container .row .col-12{
+    text-align: left;
+    padding-left: 80px;
+}
+
+@media only screen and (max-width: 766px) {
+    
+    .contact-us .container .heading{
+        text-align: center;
+    }
+
+    .contact-us .container .row .col-12{
+        text-align: center;
+        padding-bottom: 40px;
+        padding-left: 0px;
+    } 
+}
