@@ -23,7 +23,10 @@ export default function Gallery({ images_json }) {
     }
 
     return (
-        <>
+        <div className='mb-5'>
+        <div className="heading pb-4">
+                Gallery
+            </div>
             <div className="gallery-grid">
                 {
                     Object.keys(images_json).map((index, key) => {
@@ -40,15 +43,8 @@ export default function Gallery({ images_json }) {
                         </div>)
                     })
                 }
-                {/* <div className="gallery-grid-item">
-                    <img src={AravaliImages[0]} alt="image1" className="gallery-grid-cover" />
-                    <div className='gallery-grid-card '>
-                        <p className='gallery-grid-title'>Title2</p>
-                        <button className="gallery-grid-btn" onClick={() => galleryFull("Title2")}>More Images</button>
-                    </div>
-                </div> */}
             </div>
             <FullCarousel images={images} onClose={() => galleryFullClose()} open={fullCarouselOpen} />
-        </>
+        </div>
     )
 }

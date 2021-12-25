@@ -32,9 +32,9 @@ export default {
         "cover_image": Image1,
         images
     },
-    4: {
-        "title": "Title 4",
-        "cover_image": Image1,
-        images
-    },
+    // 4: {
+    //     "title": "Title 4",
+    //     "cover_image": Image1,
+    //     images
+    // },
 };

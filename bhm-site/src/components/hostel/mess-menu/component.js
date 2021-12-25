@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 function Messmenu(props) {
 
     return <div id="mess-menu" className="container-fluid">
-        <div className="heading" id="mess-heading">Mess Menu</div>
+        <div className="heading pb-4">
+                Mess Menu
+            </div>
         <div class="menu my-4">
             <div id="marker"></div>
             <Link class="link1" to="#">Monday</Link>
