@@ -24,26 +24,34 @@ export default function Gallery({ images_json }) {
 
     return (
         <div className='mb-5'>
-        <div className="heading pb-4">
+            <div className="heading pb-4">
                 Gallery
             </div>
-            <div className="gallery-grid">
-                {
-                    Object.keys(images_json).map((index, key) => {
-                        console.log(images_json[key + 1]);
-                        // [...Array(Object.keys)].map((x, i) => {
-                        let { title, cover_image, images1 } = images_json[key + 1];
+            <div className="">
+                <div className="gallery-grid">
+                    {
+                        Object.keys(images_json).map((index, key) => {
+                            console.log(images_json[key + 1]);
+                            // [...Array(Object.keys)].map((x, i) => {
+                            let { title, cover_image, images1 } = images_json[key + 1];
 
-                        return (<div className="gallery-grid-item">
-                            <img src={cover_image} alt={title} className="gallery-grid-cover" />
-                            <div className='gallery-grid-card '>
-                                <p className='gallery-grid-title'>{title}</p>
-                                <button className="gallery-grid-btn" onClick={() => galleryFull(key + 1)}>More Images</button>
-                            </div>
-                        </div>)
-                    })
-                }
+                            return (
+                                <div className="">
+                                    <div className="gallery-grid-item">
+                                        <img src={cover_image} alt={title} className="gallery-grid-cover" />
+                                        <div className='gallery-grid-card '>
+                                            <p className='gallery-grid-title'>{title}</p>
+                                            <button className="gallery-grid-btn" onClick={() => galleryFull(key + 1)}>More Images</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            )
+                        })
+                    }
+                </div>
             </div>
+
             <FullCarousel images={images} onClose={() => galleryFullClose()} open={fullCarouselOpen} />
         </div>
     )
