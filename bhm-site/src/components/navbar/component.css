@@ -15,6 +15,12 @@
 	padding-bottom: 3px!important;
 }
 
+.dropdown-menu{
+	background: rgba(255, 255, 255, 0.5);
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+}
+
 .dropdown-item{
 	padding-left:15px!important ;
 }
@@ -72,8 +78,6 @@
         align-items: center;
         width:200px;
         border-radius: 10px;font-weight: 600 !important;
-        font-size: 1.1rem !important;
-		text-shadow: 0.5px 0.5px 0.5px #2222226b !important;
     }
     
     .d-inline-flex .form-control{
@@ -82,32 +86,25 @@
         border: none;
         color: black;
         padding-left: 10px;
-        font-size: 1.1rem !important;
-		text-shadow: 0.5px 0.5px 0.5px #2222226b !important;
     }
     
     .d-inline-flex .btn{
         border-radius: 10px;
         background-color:transparent;
         padding-right: 0px;  
-        font-size: 1.1rem !important;
-		text-shadow: 0.5px 0.5px 0.5px #2222226b !important;
     }
     
     .d-inline-flex .btn:focus,
     .d-inline-flex .btn:active{
         box-shadow:none;
         outline:none;
-        font-size: 1.1rem !important;
-		text-shadow: 0.5px 0.5px 0.5px #2222226b !important;
+        
     }
     
     .d-inline-flex .form-control:focus,
     .d-inline-flex .form-control:active{
         box-shadow:none;
         outline:none;
-        font-size: 1.1rem !important;
-		text-shadow: 0.5px 0.5px 0.5px #2222226b !important;
     } 
 
 @media (min-width: 992px){
@@ -136,11 +133,15 @@
         .toggle-icon{
             font-size: 25px;
             text-align: center;
+			color: black;
         }
         .navbar-toggler{
-            background: #ffffff;
-            border: transparent;
-            color: #000!important;
+            background: rgba(255, 255, 255, 0.5);
+			-webkit-backdrop-filter: blur(5px);
+			backdrop-filter: blur(5px);
+			border:transparent;
+			padding-right: 6px;
+			padding-left: 6px;
         }
         .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
             outline: none!important;
@@ -219,11 +220,13 @@
 		background-color: #fff !important;
 		transition: background-color 200ms linear;
 		color: #000;
-	  }
+	}
+
 	.scrolled>div>.navbar-brand{
 		opacity: 1!important;
 		
 	}
+
 	.navbar-brand{
 		opacity: 0;
 		transition: opacity 200ms linear;
