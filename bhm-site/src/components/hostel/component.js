@@ -7,6 +7,7 @@ import ContactUs from './hostel-page-contact-us/component';
 import StudentTeam from './hostel-student-team/component';
 import Hero from './hostel-hero/component';
 import hostels from '../../data/hostel/hostel';
+import MessMenu from './mess-menu/component'
 // function capitalize(string) {
 //   return string.charAt(0).toUpperCase() + string.slice(1);
 // }
@@ -24,6 +25,7 @@ function Hostel(props) {
     <ContactUs contact={hostels[hostel]['contact']}/>
     {/* <Alumni/> */}
     <StudentTeam secys={hostels[hostel]['secys']}/>
+    <MessMenu mess={hostels[hostel]['mess']}/>
 
   </div>
 
