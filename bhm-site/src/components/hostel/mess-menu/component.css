@@ -58,7 +58,7 @@ h6{
     padding-bottom: 4px;
     
 }
-.link1:focus{
+.link1.active{
     /* background-color: aqua; */
     text-decoration: none;
     border-bottom: 4px solid black;
@@ -84,4 +84,7 @@ h6{
     font-size: smaller;
     font-weight: 600;
     color: #000000aa;
+}
+.full-height{
+    height: 100%;
 }

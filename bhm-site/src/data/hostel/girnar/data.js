@@ -84,20 +84,132 @@ var data = {
     ],
     mess:[
         {
-            name: 'Breakfast',
-            time: '12:30 PM - 2:30 PM',
-            menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            day:'Monday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            }]
         },
         {
-            name: 'Lunch',
-            time: '12:30 PM - 2:30 PM',
-            menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            day:'Tuesday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            }]
         },
         {
-            name: 'Dinner',
-            time: '12:30 PM - 2:30 PM',
-            menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            day:'Wednesday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            }]
+        },
+        {
+            day:'Thursday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            }]
+        },
+        {
+            day:'Friday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            }]
+        },
+        {
+            day:'Saturday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            }]
+        },
+        {
+            day:'Sunday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+            }]
         }
+        
     ]
     
 }

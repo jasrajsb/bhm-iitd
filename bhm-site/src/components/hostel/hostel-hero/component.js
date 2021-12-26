@@ -10,7 +10,7 @@ function Hero(props) {
     return <div>
                 <div className="hostel-hero" >
                     <div className="container-fluid full-height">
-                        <div className="hero-content full-height">
+                        <div className="hero-content ">
                             <img src={props.hero} alt="" className="img-cover hero-img"/>
                         </div>
                     </div>
