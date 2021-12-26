@@ -12,7 +12,8 @@ function Messmenu(props) {
         </div>
         <div class="container menu my-4 text-center">
             <div id="marker"></div>
-            <div className="row">
+            <div className="row text-center">
+                <div className="col-0 col-lg-2"></div>
                 <div className='col p-0'><Link className={"link1" + (dayname === 'monday' ? ' active' : '')} to="#" onClick={() => { setDay('monday') }}>Monday</Link></div>
                 <div className='col p-0'><Link className={"link1" + (dayname === 'tuesday' ? ' active' : '')} to="#" onClick={() => { setDay('tuesday') }}>Tuesday</Link></div>
                 <div className='col p-0'><Link className={"link1" + (dayname === 'wednesday' ? ' active' : '')} to="#" onClick={() => { setDay('wednesday') }}>Wednesday</Link></div>
@@ -20,6 +21,8 @@ function Messmenu(props) {
                 <div className='col p-0'><Link className={"link1" + (dayname === 'friday' ? ' active' : '')} to="#" onClick={() => { setDay('friday') }}>Friday</Link></div>
                 <div className='col p-0'><Link className={"link1" + (dayname === 'saturday' ? ' active' : '')} to="#" onClick={() => { setDay('saturday') }}>Saturday</Link></div>
                 <div className='col p-0'><Link className={"link1" + (dayname === 'sunday' ? ' active' : '')} to="#" onClick={() => { setDay('sunday') }}>Sunday</Link></div>
+                <div className="col-0 col-lg-2"></div>
+
             </div>
 
 
