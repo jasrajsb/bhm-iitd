@@ -14,11 +14,13 @@ var data = {
     `,
     vision: `To be a center of excellence in provision of student accommodation services and best quality mess facilities. To create a memorable and joyful experience of their stay.
     `,
+    insta: 'https://instagram.com/satpura_house?utm_medium=copy_link',
+    complaint: 'https://docs.google.com/forms/d/e/1FAIpQLSemR1yE5eUd0TwPzptoVyxUJiRWO8jpcVzLVW3HeA7VRoIhmQ/viewform?usp=sf_link',
     contact: [
         {
             designation: 'Caretaker',
-            name: 'Lokesh',
-            phone: '',
+            name: 'Nitish',
+            phone: '9674290011',
             email: 'caretakersatpura@admin.iitd.ac.in'
         },
         {
@@ -38,34 +40,182 @@ var data = {
         {
             designation: 'House Secretary',
             name: 'Arvin Goyal',
-            image: house
+            image: house,
+            phone: '9517649345',
+            linkedin: 'https://www.linkedin.com/in/arvin-goyal-9a3a62174/',
+            mail: 'arving1908@gmail.com',
         },
         {
             designation: 'Maintenance Secretary',
             name: 'Aniket Vitthal',
-            image: maint
+            image: maint,
+            phone: '9604036906',
+            linkedin: 'https://www.linkedin.com/in/avbhandare',
+            mail: 'avbhandare8201@gmail.com',
         },
         {
             designation: 'Cultural Seceratary',
             name: 'Ritik Yadav',
-            image: cult
+            image: cult,
+            phone: '8882367230',
+            linkedin: 'http://linkedin.com/in/ritik-yadav',
+            mail: 'ritik05072001@gmail',
         },
         {
             designation: 'Mess Secretary',
             name: 'Rahul Narayan',
-            image: mess
+            image: mess,
+            phone: '9643975507',
+            linkedin: '',
+            mail: '',
         },
         {
             designation: 'Secretary to SAC',
             name: 'Jasmeet Singh',
-            image: sac
+            image: sac,
+            phone: '8447729835',
+            linkedin: 'https://www.linkedin.com/in/jasmeet-singh-501282194/',
+            mail: 'jasmeet3135@gmail.com',
         },
         {
             designation: 'Sports Secretary',
             name: 'Aryan Dixit',
-            image: sports
+            image: sports,
+            phone: '7834817826',
+            linkedin: 'https://www.linkedin.com/in/aryan-dixit-093399191',
+            mail: 'aryandixit1729@gmail.com',
         },
+    ],
+    mess:[
+        {
+            day:'Monday',
+            menu: [{
+                name: 'Breakfast',
+                time: '8:00 AM - 9:30 AM',
+                menu: 'poha,daliya,sprouts,lemon,cornflakes'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:00 PM',
+                menu: 'dal arhar,aloo gobhi,roti,rice,raitasalad'
+            },
+            {
+                name: 'Dinner',
+                time: '7:00 PM - 9:00 PM',
+                menu: 'dal moong sabut, allo matar, toti,rice,elaichi milk'
+            }]
+        },
+        {
+            day:'Tuesday',
+            menu: [{
+                name: 'Breakfast',
+                time: '8:00 AM - 9:30 AM',
+                menu: 'vada sambhar chutney,banana,sprouts'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:00 PM',
+                menu: 'kadhi(pakoda),aloo palak,dal rice,roti'
+            },
+            {
+                name: 'Dinner',
+                time: '7:00 PM - 9:00 PM',
+                menu: 'dal makhani,kadhai paneer,roti,rice,custard'
+            }]
+        },
+        {
+            day:'Wednesday',
+            menu: [{
+                name: 'Breakfast',
+                time: '8:00 AM - 9:30 AM',
+                menu: 'namkeen seviyan,boiled egg/cutlet, sprouts'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:00 PM',
+                menu: 'dal masoor,lauki sabji,rice,roti,mint raita,salad'
+            },
+            {
+                name: 'Dinner',
+                time: '7:00 PM - 9:00 PM',
+                menu: 'dal arhar,sarso ka saag,rice,missi roti,gur,pineapple raita'
+            }]
+        },
+        {
+            day:'Thursday',
+            menu: [{
+                name: 'Breakfast',
+                time: '8:00 AM - 9:30 AM',
+                menu: 'aloo palak puri,kala chana,suji ka halwa,kinoo'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:00 PM',
+                menu: 'dal urad channa,palak paneer,roti,rice,boondi raita,achar,salad'
+            },
+            {
+                name: 'Dinner',
+                time: '7:00 PM - 9:00 PM',
+                menu: 'chowmin,paw bhaji,moong malka dal, rice zeera,fruit cream'
+            }]
+        },
+        {
+            day:'Friday',
+            menu: [{
+                name: 'Breakfast',
+                time: '8:00 AM - 9:30 AM',
+                menu: 'papita,boiled egg,besan ka chilla,cornflakes'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:00 PM',
+                menu: 'dal rajma,aloo methi,roti,rice,lasssi,salad'
+            },
+            {
+                name: 'Dinner',
+                time: '7:00 PM - 9:00 PM',
+                menu: 'veg biryani/egg biryani,mint raita,roti dal kala chana,gajar ka halwa/rasgulla'
+            }]
+        },
+        {
+            day:'Saturday',
+            menu: [{
+                name: 'Breakfast',
+                time: '8:00 AM - 9:30 AM',
+                menu: 'aloo/methi/gobi paratha,dahi,tomato chutney,sweet oats'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:00 PM',
+                menu: 'aloo soyabean,veg khichdi,roti papad ,plain dahi,achar,salad'
+            },
+            {
+                name: 'Dinner',
+                time: '7:00 PM - 9:00 PM',
+                menu: 'dal arhar,matar mashroom paneer,rice,missi roti,soup'
+            }]
+        },
+        {
+            day:'Sunday',
+            menu: [{
+                name: 'Breakfast',
+                time: '8:00 AM - 9:30 AM',
+                menu: 'uttapam/dosa,sambhar,cornflakes,coconut chutney'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:00 PM',
+                menu: 'pindichole,bathure,kulche,rice,plain dahi,achar,salad'
+            },
+            {
+                name: 'Dinner',
+                time: '7:00 PM - 9:00 PM',
+                menu: 'dal urad chana,paneer butter masala/egg curry,rice,roti,gulabjamun'
+            }]
+        }
+        
     ]
+    
 }
 
 export default data;

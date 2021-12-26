@@ -14,4 +14,25 @@ import Image13 from '../../assets/HostelWise_photos/Aravali/Gallery/WhatsApp Ima
 
 const images = [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8, Image9, Image10, Image11, Image12, Image13];
 
-export default images;
+export default {
+    1: {
+        "title": "Title 1",
+        "cover_image": Image1,
+        images
+    },
+    2: {
+        "title": "Title 2",
+        "cover_image": Image1,
+        images
+    },
+    3: {
+        "title": "Title 3",
+        "cover_image": Image1,
+        images
+    },
+    // 4: {
+    //     "title": "Title 4",
+    //     "cover_image": Image1,
+    //     images
+    // },
+};
