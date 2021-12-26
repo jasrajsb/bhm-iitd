@@ -18,7 +18,7 @@ function Navbar() {
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <i className="fa fa-bars toggle-icon m-1"></i>
       </button>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <div className="collapse navbar-collapse" data-toggle="collapse" data-target=".navbar-collapse.show" id="navbarSupportedContent">
         <ul className="navbar-nav navbar-nav-scroll mx-auto">
           <li className="nav-item">
             <Link className="nav-link" to="/" onClick={()=>{window.scrollTo(0,0)}}>Home</Link>
