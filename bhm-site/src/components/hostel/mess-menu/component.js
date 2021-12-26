@@ -1,35 +1,46 @@
 import './component.css'
 import { Link } from 'react-router-dom';
+import {useState} from 'react';
 
 function Messmenu(props) {
 
+    const [dayname, setDay] = useState('monday');
+
     return <div id="mess-menu" className="container-fluid">
-        <div className="heading" id="mess-heading">Mess Menu</div>
+        <div className="heading pb-4">
+            Mess Menu
+        </div>
         <div class="menu my-4">
             <div id="marker"></div>
-            <Link class="link1" to="#">Monday</Link>
-            <Link class="link1" to="#">Tuesday</Link>
-            <Link class="link1" to="#">Wednesday</Link>
-            <Link class="link1" to="#">Thursday</Link>
-            <Link class="link1" to="#">Friday</Link>
-            <Link class="link1" to="#">Saturday</Link>
-            <Link class="link1" to="#">Sunday</Link>
+            <Link className={"link1"+(dayname==='monday'? ' active':'')} to="#" onClick={()=>{setDay('monday')}}>Monday</Link>
+            <Link className={"link1"+(dayname==='tuesday'? ' active':'')} to="#" onClick={()=>{setDay('tuesday')}}>Tuesday</Link>
+            <Link className={"link1"+(dayname==='wednesday'? ' active':'')} to="#" onClick={()=>{setDay('wednesday')}}>Wednesday</Link>
+            <Link className={"link1"+(dayname==='thursday'? ' active':'')} to="#" onClick={()=>{setDay('thursday')}}>Thursday</Link>
+            <Link className={"link1"+(dayname==='friday'? ' active':'')} to="#" onClick={()=>{setDay('friday')}}>Friday</Link>
+            <Link className={"link1"+(dayname==='saturday'? ' active':'')} to="#" onClick={()=>{setDay('saturday')}}>Saturday</Link>
+            <Link className={"link1"+(dayname==='sunday'? ' active':'')} to="#" onClick={()=>{setDay('sunday')}}>Sunday</Link>
 
         </div>
-        <div id="menu-container" className="container">
-            <div className="row full-width">
-                {props.mess.map(meal =>
-                    <div className="col-4">
-                        <div class="box m-3 px-4 py-3">
-                            {/* <h3>Lunch</h3> */}
-                            <div>
-                                <i class="fas fa-utensils pr-2"></i>
-                                <div className="meal-name d-inline">{meal.name}</div>
-                            </div>
-                            <div className="meal-time mt-2">{meal.time}</div>
-                            <div className='mess-items mt-2 font-size-smaller'>{meal.menu}</div>
-                        </div>
-                    </div>
+        <div id="menu-container" className="container mt-5">
+            <div className="full-width">
+                {props.mess.map(day =>
+                {console.log('day',day, day.day,  day.day.toString().toLowerCase(),dayname);
+                    return <div className={"row full-width "+((day.day.toString().toLowerCase()===dayname)?'':'d-none')}>
+                        {
+                            day.menu.map(meal =>
+                                <div className="col d-flex">
+                                    <div class="box mx-0 my-3 px-4 py-3">
+                                        {/* <h3>Lunch</h3> */}
+                                        <div>
+                                            <i class="fas fa-utensils pr-2"></i>
+                                            <div className="meal-name d-inline">{meal.name}</div>
+                                        </div>
+                                        <div className="meal-time mt-2">{meal.time}</div>
+                                        <div className='mess-items mt-2 font-size-smaller'>{meal.menu}</div>
+                                    </div>
+                                </div>)}
+                    </div>}
+
                 )}
             </div>
 

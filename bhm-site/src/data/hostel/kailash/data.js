@@ -16,7 +16,11 @@ var data = {
     
     With the new guidelines being enforced, the maintenance issues have been resolved with two dustbins for wet and dry waste everywhere, hand wash in washroom & soap holders in bathrooms. And how can one forget about Kamlesh bhaiya's juice shop, which now serves fruit chats, delicious sandwiches, finger licking poha and everyone's all time favourite Maggi. Kuldeep Bhaiya's shop is now no less than a supermarket now with all the utilities available right at a 50 meter distance for students
     `,
-    vision: ``,
+    vision: `To provide each and evry required facility to its resident to make this second home of a student as much comfortable as possible and take the hostel culture to the sky`,
+    fb: 'https://www.facebook.com/groups/463858693633547/?ref=share',
+    insta: 'https://instagram.com/kailash.iitd?utm_medium=copy_link',
+    complaint: 'https://docs.google.com/forms/d/e/1FAIpQLSf7dUoNH8B8wCl1Gztt8yF73NdXx3u8LnE6RwWy8MPFqmv_nA/viewform',
+    
     contact: [
         {
             designation: 'Caretaker',
@@ -25,8 +29,13 @@ var data = {
             email: 'caretakerkailash@admin.iitd.ac.in'
         },
         {
-            designation: 'Warden',
+            designation: 'Caretaker',
             name: '',
+            phone: '+91 9650061214',
+        },
+        {
+            designation: 'Warden',
+            name: 'Joyee Ghosh',
             phone: '+91 9810401256',
             email: 'joyee@physics.iitd.ac.in'
         },
@@ -41,34 +50,184 @@ var data = {
         {
             designation: 'House Secretary',
             name: 'Esha Singh',
-            image: house
+            image: house,
+            linkedIn: 'https://www.linkedin.com/in/esha-singh-b5299292',
+            mail: 'singhesha85@gmail.com',
+            phone: '9818312808',
         },
         {
             designation: 'Maintenance Secretary',
             name: 'Chenika Garg',
-            image: maint
+            image: maint,
+            linkedIn: 'https://www.linkedin.com/in/chenika-garg-935756199',
+            mail: 'chenikagarg@gmail.com',
+            phone: '9992929204',
         },
         {
             designation: 'Cultural Seceratary',
             name: 'Anisha Banthia',
-            image: cult
+            image: cult,
+            linkedIn:' https://www.linkedin.com/in/anisha-banthia-412394160',
+            mail: 'anishabanthia149@gmail.com',
+            phone: '9406607077',
         },
         {
             designation: 'Mess Secretary',
             name: 'Manya Aggarwal',
-            image: mess
+            image: mess,
+            linkedIn: 'https://www.linkedin.com/in/manya-aggarwal',
+            mail:'manyaaggarwal2001@gmail.com',
+            phone:'7310893180',
+            
         },
         {
             designation: 'Secretary to SAC',
             name: 'Shreya Singh',
-            image: sac
+            image: sac,
+            linkedIn:'https://www.linkedin.com/in/shreya-singh-b040801a9',
+            mail: 'shreyasngh100@gmail.com',
+            phone: '7011326983',
         },
         {
             designation: 'Sports Secretary',
             name: 'Yashasvi Ghadale',
-            image: sports
+            image: sports,
+            linkedIn: 'https://www.linkedin.com/in/yashasvighadale',
+            mail: 'ph1190666@iitd.ac.in',
+            phone:'8770332029',
         },
+    ],
+    mess:[
+        {
+            day:'Monday',
+            menu: [{
+                name: 'Breakfast',
+                time: '7:30 AM - 9:30 AM',
+                menu: 'Parantha, Aloo Ki Saabji, Achaar, Fruit Oats'
+            },
+            {
+                name: 'Lunch',
+                time: '12:00 PM - 2:00 PM',
+                menu: 'Khichdi, Kala Chana Aloo Dry, Roti , Curd, Papad, Salad'
+            },
+            {
+                name: 'Dinner',
+                time: '7:00 PM - 9:00 PM',
+                menu: 'Palak Paneer, Dal Arhar Fry, Rice , Roti, Sweet Sevaiyan'
+            }]
+        },
+        {
+            day:'Tuesday',
+            menu: [{
+                name: 'Breakfast',
+                time: '7:30 AM - 9:30 AM',
+                menu: 'Poha with Sev, Moong Sprouts, Veg Sandwich, Fruit'
+            },
+            {
+                name: 'Lunch',
+                time: '12:00 PM - 2:00 PM',
+                menu: 'Gobhi Aloo, Dal Moong Sabut, Rice , Bathua Raita, Tawa Roti, Salad'
+            },
+            {
+                name: 'Dinner',
+                time: '7:00 PM - 9:00 PM',
+                menu: 'Sarso ka Saag, Makka ki Roti, Gud, Dal Chana Urad, Rice, Moong Dal Halwa'
+            }]
+        },
+        {
+            day:'Wednesday',
+            menu: [{
+                name: 'Breakfast',
+                time: '7:30 AM - 9:30 AM',
+                menu: 'Vada/Idly Fried, Sambhar, Coconut Chutney, Boiled Egg, Moong Sprouts'
+            },
+            {
+                name: 'Lunch',
+                time: '12:00 PM - 2:00 PM',
+                menu: 'Methi Gajar, Dal Malka Moong, Lemon Rice, Pineapple Anar Raita, Roti, Salad'
+            },
+            {
+                name: 'Dinner',
+                time: '7:00 PM - 9:00 PM',
+                menu: 'Soup, CHEF CHOICE, Pastry'
+            }]
+        },
+        {
+            day:'Thursday',
+            menu: [{
+                name: 'Breakfast',
+                time: '7:30 AM - 9:30 AM',
+                menu: 'Besan Chila, Green Chutney, Dalia, Cornflakes, Fruit Chat/Fruit'
+            },
+            {
+                name: 'Lunch',
+                time: '12:00 PM - 2:00 PM',
+                menu: 'Mix Veg, Dal Makhani, Jeera Rice, Cucumber Raita, Roti, Salad'
+            },
+            {
+                name: 'Dinner',
+                time: '7:00 PM - 9:00 PM',
+                menu: 'Kadhai/Matar Paneer Dal Black Masoor, Rice, Tawa Roti, Jalebi Rabri, '
+            }]
+        },
+        {
+            day:'Friday',
+            menu: [{
+                name: 'Breakfast',
+                time: '7:30 AM - 9:30 AM',
+                menu: 'Aloo/Gobhi/Mooli Parantha, Tomato Chutney, Achaar, Kala Chana Boiled, Cornflakes, Fruit'
+            },
+            {
+                name: 'Lunch',
+                time: '12:00 PM - 2:00 PM',
+                menu: 'Sem ki Sabji/Seasonal Veg, Dal Rajma, Rice, Roti, Salad'
+            },
+            {
+                name: 'Dinner',
+                time: '7:00 PM - 9:00 PM',
+                menu: 'Paneer Bhurji/ Egg Bhurji, Dal Mix Sabut, Rice, Roti, Hot Badam Milk'
+            }]
+        },
+        {
+            day:'Saturday',
+            menu: [{
+                name: 'Breakfast',
+                time: '7:30 AM - 9:30 AM',
+                menu: 'Upma, Lemon Pepper Corn, Fruit, Cornflakes, Omlette'
+            },
+            {
+                name: 'Lunch',
+                time: '12:00 PM - 2:00 PM',
+                menu: 'Kadi, Zeera Aloo, Tawa Roti, Green Chutney, Papad, Salad'
+            },
+            {
+                name: 'Dinner',
+                time: '7:00 PM - 9:00 PM',
+                menu: 'Veg Korma/Soyachap, Dal Moong Chhilka, Rice, Laccha Parantha, Gajar Halwa'
+            }]
+        },
+        {
+            day:'Sunday',
+            menu: [{
+                name: 'Breakfast',
+                time: '7:30 AM - 9:30 AM',
+                menu: 'Dosa, Dhokla, Sambhar, Coconut Chutney, Cornflakes, Fruit'
+            },
+            {
+                name: 'Lunch',
+                time: '12:00 PM - 2:00 PM',
+                menu: 'Pindi/Yellow Chole, Palak Puri/Bhature, Rice, Curd, Pumpkin/Soya Aloo'
+            },
+            {
+                name: 'Dinner',
+                time: '7:00 PM - 9:00 PM',
+                menu: 'Veg/Egg Biryani, Boondi Raita, Dal Moong Malka, Roti, Gulab Jamun'
+            }]
+        }
+        
     ]
+    
 }
+
 
 export default data;
