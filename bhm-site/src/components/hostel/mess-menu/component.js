@@ -1,6 +1,6 @@
 import './component.css'
 import { Link } from 'react-router-dom';
-import {useState} from 'react';
+import { useState } from 'react';
 
 function Messmenu(props) {
 
@@ -10,22 +10,24 @@ function Messmenu(props) {
         <div className="heading pb-4">
             Mess Menu
         </div>
-        <div class="menu my-4">
+        <div class="container menu my-4 text-center">
             <div id="marker"></div>
-            <Link className={"link1"+(dayname==='monday'? ' active':'')} to="#" onClick={()=>{setDay('monday')}}>Monday</Link>
-            <Link className={"link1"+(dayname==='tuesday'? ' active':'')} to="#" onClick={()=>{setDay('tuesday')}}>Tuesday</Link>
-            <Link className={"link1"+(dayname==='wednesday'? ' active':'')} to="#" onClick={()=>{setDay('wednesday')}}>Wednesday</Link>
-            <Link className={"link1"+(dayname==='thursday'? ' active':'')} to="#" onClick={()=>{setDay('thursday')}}>Thursday</Link>
-            <Link className={"link1"+(dayname==='friday'? ' active':'')} to="#" onClick={()=>{setDay('friday')}}>Friday</Link>
-            <Link className={"link1"+(dayname==='saturday'? ' active':'')} to="#" onClick={()=>{setDay('saturday')}}>Saturday</Link>
-            <Link className={"link1"+(dayname==='sunday'? ' active':'')} to="#" onClick={()=>{setDay('sunday')}}>Sunday</Link>
+            <div className="row">
+                <div className='col p-0'><Link className={"link1" + (dayname === 'monday' ? ' active' : '')} to="#" onClick={() => { setDay('monday') }}>Monday</Link></div>
+                <div className='col p-0'><Link className={"link1" + (dayname === 'tuesday' ? ' active' : '')} to="#" onClick={() => { setDay('tuesday') }}>Tuesday</Link></div>
+                <div className='col p-0'><Link className={"link1" + (dayname === 'wednesday' ? ' active' : '')} to="#" onClick={() => { setDay('wednesday') }}>Wednesday</Link></div>
+                <div className='col p-0'><Link className={"link1" + (dayname === 'thursday' ? ' active' : '')} to="#" onClick={() => { setDay('thursday') }}>Thursday</Link></div>
+                <div className='col p-0'><Link className={"link1" + (dayname === 'friday' ? ' active' : '')} to="#" onClick={() => { setDay('friday') }}>Friday</Link></div>
+                <div className='col p-0'><Link className={"link1" + (dayname === 'saturday' ? ' active' : '')} to="#" onClick={() => { setDay('saturday') }}>Saturday</Link></div>
+                <div className='col p-0'><Link className={"link1" + (dayname === 'sunday' ? ' active' : '')} to="#" onClick={() => { setDay('sunday') }}>Sunday</Link></div>
+            </div>
+
 
         </div>
         <div id="menu-container" className="container mt-5">
             <div className="full-width">
-                {props.mess.map(day =>
-                {console.log('day',day, day.day,  day.day.toString().toLowerCase(),dayname);
-                    return <div className={"row full-width "+((day.day.toString().toLowerCase()===dayname)?'':'d-none')}>
+                {props.mess.map(day => {
+                    return <div className={"row full-width " + ((day.day.toString().toLowerCase() === dayname) ? '' : 'd-none')}>
                         {
                             day.menu.map(meal =>
                                 <div className="col d-flex">
@@ -39,7 +41,8 @@ function Messmenu(props) {
                                         <div className='mess-items mt-2 font-size-smaller'>{meal.menu}</div>
                                     </div>
                                 </div>)}
-                    </div>}
+                    </div>
+                }
 
                 )}
             </div>
