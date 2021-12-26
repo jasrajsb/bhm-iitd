@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/hostel/:hostel" element={<Hostel/>} />
-          <Route exact path='/bhm-site' element={<Homepage/>} />
+          <Route exact path='/' element={<Homepage/>} />
           <Route path="/faqs" element = {<FAQs/>}/>
         </Routes>
         <Footer />
