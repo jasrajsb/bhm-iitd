@@ -28,7 +28,7 @@
 }
 
 .dropdown-item:hover,.dropdown-item:active,.dropdown-item:focus{
-	background:none;
+	background-color:transparent;
 }
  
 .navbar-nav a{
