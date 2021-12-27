@@ -65,6 +65,135 @@ var data = {
             name: 'Shubham S. Rathore',
             image: sports
         },
+    ],
+    mess:[
+        {
+            day:'Monday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'ALOO KI SABZI, METHI PARANTHA, VEG UPMA, FRUIT'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'SUBZ MILONI, ,DAL MOONG MALKA, JEERA RICE, ROTI, BOONDI RAITA, SALAD'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'KADHAI PANEER, CHANA DAL, RICE, ROTI, IMARATI'
+            }]
+        },
+        {
+            day:'Tuesday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'FRIED & PLAIN IDLI, SAMBHAR, COCONUT, TOMATO CHUTNEY, CORNFLAKES, FRUIT'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'KADHI PAKODA, AALU MATTAR, RICE, ROTI, PAPAD, SALAD'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'METHI MASHROOM MALAI MATTAR, DAL AFGANI (KALI MASOOR), RICE, ROTI, MILK BADAM'
+            }]
+        },
+        {
+            day:'Wednesday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'POHA-SEV, JALEBI, 2 BOILED EGG, FRUITS'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'PANEER BUTTER MASALA, DAL URAD CHANA, RICE ROTI, SALAD'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'VEG BIRYANI, EGG BIRYANI, KALA CHANNA SABJI, CUCUMBER RAITA, ROTI, MOONG DAL HALWA'
+            }]
+        },
+        {
+            day:'Thursday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'MIX VEG PARANTHA, TAMATAR PYAAZ CHUTNEY, SWEET SEVIAN, FRUIT'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'PINDI CHOLLE, BHATTURE, JEERA AALU, RICE ROTI, BOONDI RAITA, SALAD, ACHAAR'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'DHOKLA, PASTA MACRONI, PAO BHAJI, MOONG MALKA DAL, MATTAR PULAO, ROTI, CHOCOLATE TRUFFLE PASTRY'
+            }]
+        },
+        {
+            day:'Friday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'DRY MATTAR SABJI, KULCHE, OMELLETTE DALIA, FRUIT'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'ALOO PALAK (SHREDDED), DRY DAL CHANA, JEERA RICE, ROTI, DAHI, SALAD'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'EGG CURRY/PANEER MAKHNI, DAL MAKHNI, PLAIN PARANTHA/ROTI, RASS MALAI'
+            }]
+        },
+        {
+            day:'Saturday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'ALOO PYAAZ PARANTHA, TAMATAR CHUTNEY, NAMKEEN SEVIAN, FRUIT'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'AJWAINI ARBI MASALA, DAL ARHAR, RICE ROTI DAHI SALAD, PAPAD'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'LAUKI KOFTA, DAL PANCHRATNI, RICE, ROTI, STUFF GULAB JAMUN'
+            }]
+        },
+        {
+            day:'Sunday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'PLAIN/MASALA DOSA/MEDU VADA, SAMBHAR, COCONUT CHUTNEY, DALIYA/FRUIT'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'PANEER MATTAR BHURJI, DAL SABUT MIX, RICE, ROTI, PLAIN LASSI, SALAD'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'SARSON SAAG, MISSI ROTI, DAL MOONG MALKA, RICE, KESAR PHIRNI'
+            }]
+        }
+        
     ]
 }
 
