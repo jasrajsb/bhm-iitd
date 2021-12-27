@@ -9,9 +9,10 @@ var data = {
     hero: hero,
     introduction: `Inaugurated in 2012, Udaigiri is the youngest hostel of IIT Delhi. Enabled with elevators, gym and known for its delicious Monday mess dinners, it's one of the largest hostels in the campus. In a short span of 9 remarkable years, we developed a strong culture in recreational activities like dance, art, debating, photography and many more. With all its facilities and friendly staff, Udaigiri will make you feel at home.`,
     vision: `To create an interactive, fun and educational environment, accepting of all, where creativity flourishes.`,
-    fb: '',
+    //fb: '',
     insta: 'https://www.instagram.com/udyam_/',
     complaint: 'https://docs.google.com/spreadsheets/d/1l2N-C_Zi-N0R0HTjSiagqD6fs6C45EV2ZCvRW85M_vU/edit?usp=drivesdk',
+    location:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.7290980810812!2d77.18735741500706!3d28.547861282451294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d32e65bad7f%3A0xf3bf2fd5785f5277!2sUdaigiri%20Hostel%20Lawn!5e0!3m2!1sen!2sin!4v1640605313739!5m2!1sen!2sin',
     contact: [
         {
             designation: 'Caretaker',

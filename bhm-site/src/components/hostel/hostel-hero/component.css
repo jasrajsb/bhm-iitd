@@ -1,6 +1,7 @@
 
 .hero-content{
   height: 75vh;
+  margin-top: 19px;
 }
 
 .hero-heading {
@@ -68,6 +69,10 @@
   text-align: center;
 }
 
+.social:hover{
+  cursor: pointer;
+}
+
 .map{
     width:100%;
     border-radius:  10px;
@@ -90,6 +95,16 @@
   border: none;
   outline: none;
   box-shadow:none;
+}
+
+.complain_link{
+  text-decoration: none;
+  color: black;
+}
+
+.complain_link:hover,.complain_link:focus,.complain_link:active{
+  text-decoration: none;
+  color: black;
 }
 
 

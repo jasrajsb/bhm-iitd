@@ -11,6 +11,7 @@ var data = {
     vision: `Infusing a collective identity in Himadri residents and ensuring that each individual is cared about and provided for.`,
     insta:'https://instagram.com/noor.himadri?utm_medium=copy_link',
     complaint:'https://docs.google.com/forms/d/e/1FAIpQLScQelzsjmdIOoI-P8R__obaEWjVYTxDO4428NXW8neo3Mm9AA/viewform?usp=sf_link',
+    location:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.838824081241!2d77.19402061500696!3d28.54456388245259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce209b79a226d%3A0x2311b6572bcbf717!2sHimadri%20Hostel%2C%20Indian%20Institute%20of%20Technology%20Delhi%2C%20Hauz%20Khas%2C%20New%20Delhi%2C%20Delhi%20110016!5e0!3m2!1sen!2sin!4v1640604606527!5m2!1sen!2sin',
     contact: [
         {
             designation: 'Overall Coordinator',

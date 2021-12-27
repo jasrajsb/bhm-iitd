@@ -23,14 +23,13 @@ function Hostel(props) {
     <div className="container">
       {/* {capitalize(hostel)} Hostel Page */}
     </div>
-    <Hero hostel={hostel} logo = {hostels[hostel]['logo']} hero = {hostels[hostel]['hero']}/>
+    <Hero hostel={hostel} logo = {hostels[hostel]['logo']} hero = {hostels[hostel]['hero']} insta={hostels[hostel]['insta']} fb={hostels[hostel]['fb']} complaint={hostels[hostel]['complaint']} location={hostels[hostel]['location']}/>
     <Introduction text={hostels[hostel]['introduction']}/>
     <Vision text={hostels[hostel]['vision']}/>
     <ContactUs contact={hostels[hostel]['contact']}/>
     {/* <Alumni/> */}
     <StudentTeam secys={hostels[hostel]['secys']}/>
     <Gallery images_json={girnar_gallery} />
-
     <MessMenu mess={hostels[hostel]['mess']}/>
 
 

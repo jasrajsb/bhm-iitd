@@ -16,6 +16,7 @@ var data = {
     `,
     insta: 'https://instagram.com/satpura_house?utm_medium=copy_link',
     complaint: 'https://docs.google.com/forms/d/e/1FAIpQLSemR1yE5eUd0TwPzptoVyxUJiRWO8jpcVzLVW3HeA7VRoIhmQ/viewform?usp=sf_link',
+    location:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.7196103997508!2d77.18513321500713!3d28.548146382451066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d7324a2a8c1%3A0x1a1533ecb8591a18!2sSatpura%20Hostel%20Garden!5e0!3m2!1sen!2sin!4v1640605134603!5m2!1sen!2sin',
     contact: [
         {
             designation: 'Caretaker',

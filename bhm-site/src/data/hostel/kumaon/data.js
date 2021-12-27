@@ -14,6 +14,7 @@ var data = {
     Kumaon is not just a hostel. It is a very close-knit family, where everyone works hard to take themselves and the hostel to greater heights and have loads of fun along the way.
     `,
     vision: `To metamorphose cubs into tigers`,
+    location:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.6853129225815!2d77.18253591500712!3d28.549176982450675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1dcfdc533401%3A0xb3d03ffd3ca97152!2sKumaon%20Hostel&#39;s%20Garden!5e0!3m2!1sen!2sin!4v1640604949576!5m2!1sen!2sin',
     contact: [
         {
             designation: 'Caretaker',

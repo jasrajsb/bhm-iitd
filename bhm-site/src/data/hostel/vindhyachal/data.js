@@ -11,6 +11,7 @@ var data = {
     vision: `It's up to you!`,
     insta: 'https://www.instagram.com/vindy.iitdelhi/?hl=en',
     complaint: 'https://docs.google.com/forms/d/e/1FAIpQLSeG93YBgKbgyVBxFXcxPGqZ4l5eAzGhlHylFg_XXY9eI8MC4g/viewform?usp=sf_link',
+    location:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.7290980810812!2d77.18735741500706!3d28.547861282451294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d98dda4842f%3A0xcd8630f3afcd57bb!2sVidhyanchal%20Hostel%20Garden!5e0!3m2!1sen!2sin!4v1640605396110!5m2!1sen!2sin',
     contact: [
         {
             designation: 'Caretaker',

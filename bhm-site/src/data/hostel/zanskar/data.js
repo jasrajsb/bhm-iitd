@@ -11,9 +11,10 @@ var data = {
     The hostel with the famous “The Marvel Wall”, Zanskar is a hostel with an exciting culture. Athletics is a place where you wouldn’t want to challenge them. They are known for their Wolfish stance.
      `,
     vision: `To raise wolves, accomplished to lead the pack!`,
-    fb:'',
+    //fb:'',
     insta:'https://www.instagram.com/aaghaz_zanskar/',
     complaint:'https://forms.gle/N5nC3kDqpUWSmMUt6',
+    location:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.7290980810812!2d77.18735741500706!3d28.547861282451294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1df3ce6b7a2b%3A0x9b2938f0edf7ec69!2sZanskar%20Hostel%20Common%20Room!5e0!3m2!1sen!2sin!4v1640605465126!5m2!1sen!2sin',
     contact: [
         {
             designation: 'Caretaker',

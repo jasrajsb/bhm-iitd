@@ -23,6 +23,7 @@ var data = {
      
     
     `,
+    location:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.737687169875!2d77.18383351500702!3d28.547603182451468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d882456baa7%3A0xa263a09acbead028!2sShivalik%20Hostel%20Garden!5e0!3m2!1sen!2sin!4v1640605248394!5m2!1sen!2sin',
     contact: [
         {
             designation: 'Caretaker',

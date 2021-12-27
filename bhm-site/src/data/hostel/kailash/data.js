@@ -20,7 +20,7 @@ var data = {
     fb: 'https://www.facebook.com/groups/463858693633547/?ref=share',
     insta: 'https://instagram.com/kailash.iitd?utm_medium=copy_link',
     complaint: 'https://docs.google.com/forms/d/e/1FAIpQLSf7dUoNH8B8wCl1Gztt8yF73NdXx3u8LnE6RwWy8MPFqmv_nA/viewform',
-    
+    location:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.78546330218!2d77.19074771500702!3d28.546167482451967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3354fd0c463%3A0x79006e1186fbb0ab!2sKailash%20Hostel%20Lawn!5e0!3m2!1sen!2sin!4v1640604803786!5m2!1sen!2sin',
     contact: [
         {
             designation: 'Caretaker',

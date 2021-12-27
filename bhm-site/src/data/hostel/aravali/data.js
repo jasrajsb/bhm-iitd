@@ -9,9 +9,10 @@ var data = {
     hero: hero,
     introduction: `Aravali is one of the oldest and most prestigious hostels of IIT Delhi which has served as the home away from home for thousands of the country's brightest minds over the years. Aravali prides itself of a rich academic culture having its students bag the President's gold medal given for academic excellence for the past 2 years. It also boasts of a rich cultural history with multiple laurels achieved in clubs like PFC (Photography and Films Club), Debating Club etc and also perform exceptionally in various sports events as well. All of this is accomplished through a highly interactive network of seniors and freshers which grooms them to become accomplished individuals who excel both academically and in extra-curriculars. Aravali also has a premiere alumni network with its previous students having been placed in some of the most prestigious firms all over the world. Staying at Aravali is a privilege to all its numerous residents and provides them with some of the most precious and unforgettable years of their lives. `,
     vision: `To provide best facilities for a safe and comfortable stay and to maintain a conducive environment for the students, where knowledge is shared, creativity is developed and fraternity exist in a cross cultural background, which in turn will help the students to excel in academics and management skills.    `,
-    fb: '',
+    //fb: '',
     insta: 'https://www.instagram.com/amuse_aravali/',
     complaint: 'https://docs.google.com/forms/d/e/1FAIpQLSdK0i4fhN2hyVEpRTAA4faBoQZBRc1PbW1NKHZGk0pd9FfFPg/viewform',
+    location:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112050.4260234023!2d77.21123826631644!3d28.642472781157515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1dab3fbfaa4f%3A0x9d7137c332165e6e!2sAravali%20Hostel%20Garden!5e0!3m2!1sen!2sin!4v1640604503916!5m2!1sen!2sin',
     contact: [
         {
             designation: 'Caretaker',
