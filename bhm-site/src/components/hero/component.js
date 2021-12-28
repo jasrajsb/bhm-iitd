@@ -7,7 +7,7 @@ import Gallery4 from "./gallery4.jpg";
 
 function Hero() {
     return <div className="">
-        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" className="carousel slide" data-interval="2000" data-ride="carousel" data-pause="false">
   <ol className="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -31,14 +31,6 @@ function Hero() {
   <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="sr-only">Previous</span>
-  </a>
-  <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="sr-only">Next</span>
-  </a>
-  <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="sr-only">Next</span>
   </a>
   <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
     <span className="carousel-control-next-icon" aria-hidden="true"></span>

@@ -1,5 +1,4 @@
 .hero{
-    /* background-color: #f8f8f8; */
     height: 85vh
 }
 
@@ -11,3 +10,18 @@
 .hero-content{
     max-height: 100%;
 }
+
+.carousel-control-prev{
+    width:fit-content!important;
+    margin-left: 10%!important;
+}
+
+.carousel-control-next{
+    width:fit-content!important;
+    margin-right: 10%!important;
+}
+
+.carousel-indicators{
+    display: flex!important;
+}
+
