@@ -7,7 +7,7 @@ import Gallery4 from "./gallery4.jpg";
 
 function Hero() {
     return <div className="">
-        <div id="carouselExampleIndicators" className="carousel slide" data-interval="2000" data-ride="carousel" data-pause="false">
+        <div id="carouselExampleIndicators" className="carousel slide" data-interval="1500" data-ride="carousel" data-pause="false">
   <ol className="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
