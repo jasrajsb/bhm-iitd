@@ -89,17 +89,17 @@ var data = {
             menu: [{
                 name: 'Breakfast',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Poha, Veg Sandwich , Kala chana boiled, Jalebi, '
             },
             {
                 name: 'Lunch',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Dal Moong Malka, Veg kohlapuri, Curd, Rice, Roti'
             },
             {
                 name: 'Dinner',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Daal chana, Cheese chilli, Fried rice, Roti , Rasmalai'
             }]
         },
         {
@@ -107,17 +107,17 @@ var data = {
             menu: [{
                 name: 'Breakfast',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Aloo Parantha, Dalia, Sprout boiled, Fruit'
             },
             {
                 name: 'Lunch',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Aloo gobhi, Dal afghani, Curd, Rice, Roti'
             },
             {
                 name: 'Dinner',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Cholley(Paneer), Sitafal Sabji, Rice, Poori, Kheer'
             }]
         },
         {
@@ -125,17 +125,17 @@ var data = {
             menu: [{
                 name: 'Breakfast',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Bread Pakora/Bread Roll, Omelette, Sweet oats, Sprouts, Fruit'
             },
             {
                 name: 'Lunch',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Dal Sabut mix, Kadhai Paneer, Meethi lassi/Chachh, Rice, Roti'
             },
             {
                 name: 'Dinner',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Dal Makhani, Mix Veg Sabji, Rice, Roti, Gulab Jamun'
             }]
         },
         {
@@ -143,17 +143,17 @@ var data = {
             menu: [{
                 name: 'Breakfast',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Idli, Sambhar, Coconut chatni, Sandwich, Fruit'
             },
             {
                 name: 'Lunch',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Cabbage/Aloo/Matar, Rajma Masala, Raita, Rice, Roti'
             },
             {
                 name: 'Dinner',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Sarso ka Saag, Dal Arhar, Rice, Roti, Badaam Milk'
             }]
         },
         {
@@ -161,17 +161,17 @@ var data = {
             menu: [{
                 name: 'Breakfast',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Mix Parantha, Cornflakes, Sprouts, Fruit'
             },
             {
                 name: 'Lunch',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Kadi Pakoda, Mathhi/Gajar/Matar, Rice, Roti'
             },
             {
                 name: 'Dinner',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Veg Biryani, Egg biryani, Rajmah, Raita Mix, Roti '
             }]
         },
         {
@@ -179,17 +179,17 @@ var data = {
             menu: [{
                 name: 'Breakfast',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Poori Aloo Sabji, Desi Ghee Suji Halwa,Boiled Egg, Fruit'
             },
             {
                 name: 'Lunch',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Kala Chana, Pav Bhaji, Dahi, Achaar, Roti'
             },
             {
                 name: 'Dinner',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Lauki Kofta, Dal Urad Chana, Veg pulao, Roti, Moong Dal Halwa'
             }]
         },
         {
@@ -197,21 +197,22 @@ var data = {
             menu: [{
                 name: 'Breakfast',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Dosa, Sambhar, Coconut Chutney, Tomato Chutney, Sweet Seviyan'
             },
             {
                 name: 'Lunch',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Pindi Chole, Dhaniya Aloo, Bhatura/Roti, Rice/Achaar/Chilli Fry, Dahi Bhalla'
             },
             {
                 name: 'Dinner',
                 time: '12:30 PM - 2:30 PM',
-                menu: 'Chole, Bhature, Kulcha, Rice, Aloo Zeera Subji, Plain Dahi, Aachar, Salad'
+                menu: 'Matar Paneer/Egg Curry, Dal Moong Lobia, Onion Rice, Roti, Gulab Jamun'
             }]
         }
         
     ]
+    
     
 }
 

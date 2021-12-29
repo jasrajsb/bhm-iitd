@@ -82,7 +82,137 @@ var data = {
             mail: 'ee1190485@ee.iitd.ac.in',
             phone: '8360063357',
         },
+    ],
+    mess:[
+        {
+            day:'Monday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Poha, Veg Sandwich , Kala chana boiled, Jalebi, '
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Dal Moong Malka, Veg kohlapuri, Curd, Rice, Roti'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Daal chana, Cheese chilli, Fried rice, Roti , Rasmalai'
+            }]
+        },
+        {
+            day:'Tuesday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Aloo Parantha, Dalia, Sprout boiled, Fruit'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Aloo gobhi, Dal afghani, Curd, Rice, Roti'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Cholley(Paneer), Sitafal Sabji, Rice, Poori, Kheer'
+            }]
+        },
+        {
+            day:'Wednesday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Bread Pakora/Bread Roll, Omelette, Sweet oats, Sprouts, Fruit'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Dal Sabut mix, Kadhai Paneer, Meethi lassi/Chachh, Rice, Roti'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Dal Makhani, Mix Veg Sabji, Rice, Roti, Gulab Jamun'
+            }]
+        },
+        {
+            day:'Thursday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Idli, Sambhar, Coconut chatni, Sandwich, Fruit'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Cabbage/Aloo/Matar, Rajma Masala, Raita, Rice, Roti'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Sarso ka Saag, Dal Arhar, Rice, Roti, Badaam Milk'
+            }]
+        },
+        {
+            day:'Friday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Mix Parantha, Cornflakes, Sprouts, Fruit'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Kadi Pakoda, Mathhi/Gajar/Matar, Rice, Roti'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Veg Biryani, Egg biryani, Rajmah, Raita Mix, Roti '
+            }]
+        },
+        {
+            day:'Saturday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Poori Aloo Sabji, Desi Ghee Suji Halwa,Boiled Egg, Fruit'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Kala Chana, Pav Bhaji, Dahi, Achaar, Roti'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Lauki Kofta, Dal Urad Chana, Veg pulao, Roti, Moong Dal Halwa'
+            }]
+        },
+        {
+            day:'Sunday',
+            menu: [{
+                name: 'Breakfast',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Dosa, Sambhar, Coconut Chutney, Tomato Chutney, Sweet Seviyan'
+            },
+            {
+                name: 'Lunch',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Pindi Chole, Dhaniya Aloo, Bhatura/Roti, Rice/Achaar/Chilli Fry, Dahi Bhalla'
+            },
+            {
+                name: 'Dinner',
+                time: '12:30 PM - 2:30 PM',
+                menu: 'Matar Paneer/Egg Curry, Dal Moong Lobia, Onion Rice, Roti, Gulab Jamun'
+            }]
+        }
+        
     ]
+    
 }
 
 export default data;
