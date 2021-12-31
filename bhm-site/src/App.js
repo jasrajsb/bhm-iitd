@@ -6,6 +6,7 @@ import Hostel from './components/hostel/component';
 import Navbar from './components/navbar/component.js';
 import Homepage from './pages/homepage';
 import FAQs from './pages/faqs/component';
+import Resources from './pages/resources/component'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/hostel/:hostel" element={<Hostel/>} />
           <Route exact path='/' element={<Homepage/>} />
           <Route path="/faqs" element = {<FAQs/>}/>
+          <Route path="/resources" element = {<Resources/>}/>
         </Routes>
         <Footer />
       </Router>

@@ -47,20 +47,23 @@ function Navbar() {
 
 
 
-          <li className="nav-item dropdown">
+          {/*<li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Resources
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               {/*<a className="dropdown-item" href={self_study_course} target="_blank" rel="noreferrer" >Self Study Course</a>*/}
               {/*<a className="dropdown-item" href={semester_withdrawal} target="_blank" rel="noreferrer" >Semester Withdrawal</a>*/}
-              <a className="dropdown-item" href={rail_concession} target="_blank" rel="noreferrer" >Rail Concession</a>
+              {/*</ul><a className="dropdown-item" href={rail_concession} target="_blank" rel="noreferrer" >Rail Concession</a>
               <a className="dropdown-item" href={mess_security_refund} target="_blank" rel="noreferrer" >Mess Security Refund Form</a>
               <a className="dropdown-item" href={mess_rebate} target="_blank" rel="noreferrer" >Mess Rebate Form</a>
               <a className="dropdown-item" href={guest_stay} target="_blank" rel="noreferrer" >Guest Short Stay</a>
             </div>
+          </li>*/}
+          
+           <li className="nav-item">
+            <Link className="nav-link" to="/resources">Resources</Link>
           </li>
-
 
           <li className="nav-item">
             <Link className="nav-link" to="/faqs">FAQs</Link>
