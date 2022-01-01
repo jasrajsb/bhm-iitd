@@ -1,40 +1,51 @@
+import './component.css'
+
 function TeamStucture() {
-    return <div className="team-structure">
-        <div className="container">
-            <div className="heading p-5">
+    return (<div className='bg-light py-4'>
+    <div className="container pb-5">
+        <div className="heading p-5">
                 Student Team Structure
             </div>
-            <div className="row">
-                <div className="col-0 col-md-2 col-lg-2"></div>
-                <div className="col-12 col-md-8 col-lg-8 d-none d-md-block">
-                    <div className="pb-3">
-                        <button type="button" class="btn btn-dark">General Seceratry BHM</button>
-                    </div>
-                    <div className="row pb-3">
-                        <div className="col-6">
-                            <button type="button" class="btn btn-success">2 BHM Secretaries</button>
-                        </div>
-                        <div className="col-6">
-                            <button type="button" class="btn btn-success">House Seceratory</button>
-                        </div>
-                    </div>
-                    <div className="row pb-3">
-                        <div className="col-6">
-                            <button type="button" class="btn btn-light">BHM Repressentatives (1 from each hostel)</button>
-                        </div>
-                        <div className="col-3">
-                            <button type="button" class="btn btn-light">Mess Secratary</button>
-                        </div>
-                        <div className="col-3">
-                            <button type="button" class="btn btn-light">Maintainance Secratary</button>
-                        </div>
-
-                    </div>
+        <ol className="organizational-chart">
+            <li>
+                <div>
+                    <div className='h4 my-0 py-2'>General Seceratry BHM</div>
                 </div>
-            </div>
-
-        </div>
-    </div>
+                <ol>
+                    <li>
+                        <div>
+                            <div className='h5 my-0 py-1'>2 BHM Secretaries</div>
+                        </div>
+                        <ol>
+                            <li>
+                                <div>
+                                    <div className='h6 my-0'>BHM Repressentatives <br/>(1 from each hostel)</div>
+                                </div>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <div>
+                            <div className='h5 my-0 py-1'>House Seceratory</div>
+                        </div>
+                        <ol>
+                            <li>
+                                <div>
+                                    <div className='h6 my-0'>Mess Secratary</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div className='h6 my-0'>Maintainance Secratary</div>
+                                </div>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+</div>
+</div>)
 }
 
 export default TeamStucture;
