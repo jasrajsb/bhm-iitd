@@ -9,7 +9,7 @@ function TeamStucture() {
         <ol className="organizational-chart">
             <li>
                 <div>
-                    <div className='h4 my-0 py-2'>General Seceratry BHM</div>
+                    <div className='h4 my-0 py-2'>General Secretary BHM</div>
                 </div>
                 <ol>
                     <li>
@@ -26,12 +26,12 @@ function TeamStucture() {
                     </li>
                     <li>
                         <div>
-                            <div className='h5 my-0 py-1'>House Seceratory</div>
+                            <div className='h5 my-0 py-1'>House Secretary</div>
                         </div>
                         <ol>
                             <li>
                                 <div>
-                                    <div className='h6 my-0'>Mess Secratary</div>
+                                    <div className='h6 my-0'>Mess Secretary</div>
                                 </div>
                             </li>
                             <li>
