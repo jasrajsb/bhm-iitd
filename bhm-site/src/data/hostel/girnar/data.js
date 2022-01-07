@@ -16,8 +16,8 @@ var data = {
     contact: [
         {
             designation: 'Caretaker',
-            name: 'Deep Chandra',
-            phone: '99902 56137',
+            name: 'Sanjeev ',
+            phone: '9212915558',
             email: 'caretakergirnar@admin.iitd.ac.in'
         },
         {
@@ -27,9 +27,15 @@ var data = {
             email: 'wdnmgir@admin.iitd.ac.in'
         },
         {
-            designation: '',
+            designation: 'Co ordinator',
+            name: 'Santosh',
+            phone: '9540015298',
+            email: '⠀'
+        },
+        {
+            designation: 'Guard Desk',
             name: '⠀',
-            phone: '',
+            phone: '+911126596891',
             email: '⠀'
         }
     ],

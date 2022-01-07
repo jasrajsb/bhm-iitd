@@ -22,8 +22,8 @@ var data = {
         },
         {
             designation: 'Warden',
-            name: 'Mr. Akash',
-            phone: '9212915558',
+            name: 'Mr. Ankur Goswami',
+            phone: '7063460497',
             email: 'wdnmkar@admin.iitd.ac.in'
         },
         {

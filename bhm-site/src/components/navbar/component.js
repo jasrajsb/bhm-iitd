@@ -93,7 +93,7 @@ function Navbar() {
             <a className="nav-link" target="_blank" rel="noreferrer"  href="https://docs.google.com/spreadsheets/d/1okeMA5gB62KvVrHQQuwZ4vNKg38NBybJE7F7h7HmBU4/edit#gid=0">Off Campus Accommodation</a>
           </li> */}
           <li className="nav-item">
-            <a className="nav-link" target="_blank" rel="noreferrer"  href="https://docs.google.com/spreadsheets/d/1okeMA5gB62KvVrHQQuwZ4vNKg38NBybJE7F7h7HmBU4/edit#gid=0">Hostel Rules</a>
+            <a className="nav-link" target="_blank" rel="noreferrer"  href="">Hostel Rules</a>
           </li>
         </ul>
         <form className="d-inline-flex search-bar bg-light">
