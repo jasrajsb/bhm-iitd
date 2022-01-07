@@ -1,8 +1,9 @@
+
 function AboutUs(){
     return <div className="about-us text-justify">
         <div className="container p-5">
         <div className="row">
-  <div className="col-sm-3"><div className="heading" style={{fontSize:"40px"}}>
+  <div className="col-sm-3" style={{display:"flex",alignItems:"center"}}><div className="heading" style={{fontSize:"40px"}}>
                 About BHM
             </div></div>
   <div className="col-sm-9 pt-2">
