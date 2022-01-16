@@ -11,7 +11,7 @@ const Homepage = function () {
         <Hero />
         <AboutUs />
         <Notices />
-        <Calendar />
+        {/* <Calendar /> */}
         <TeamStucture/>
         <Chiefs />
         <PopUp />

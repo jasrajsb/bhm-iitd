@@ -19,7 +19,7 @@ function TeamStucture() {
                         <ol>
                             <li>
                                 <div>
-                                    <div className='h6 my-0'>BHM Repressentatives <br/>(1 from each hostel)</div>
+                                    <div className='h6 my-0'>BHM Representatives <br/>(1 from each hostel)</div>
                                 </div>
                             </li>
                         </ol>
@@ -36,7 +36,7 @@ function TeamStucture() {
                             </li>
                             <li>
                                 <div>
-                                    <div className='h6 my-0'>Maintainance Secratary</div>
+                                    <div className='h6 my-0'>Maintenance Secretary</div>
                                 </div>
                             </li>
                         </ol>

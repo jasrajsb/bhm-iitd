@@ -65,9 +65,7 @@ function Navbar() {
             <Link className="nav-link" to="/resources">Resources</Link>
           </li>
 
-          <li className="nav-item">
-            <Link className="nav-link" to="/faqs">FAQs</Link>
-          </li>
+         
 
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -94,6 +92,9 @@ function Navbar() {
           </li> */}
           <li className="nav-item">
             <a className="nav-link" target="_blank" rel="noreferrer"  href="">Hostel Rules</a>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/faqs">FAQs</Link>
           </li>
         </ul>
         <form className="d-inline-flex search-bar bg-light">

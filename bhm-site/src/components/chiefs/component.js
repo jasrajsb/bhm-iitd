@@ -10,13 +10,13 @@ function Chiefs(){
             </div>
             <div className="row pt-">
                 <div className="col-12 col-md-4">
-                    <ProfileCard name="Prof. Aravind K. Nema" designation="Dean of Student Affairs" image={dosa} phone='(91)-11-2659-1706' email='deansa@admin.iitd.ac.in'/>
+                    <ProfileCard name="Prof. Arvind K. Nema" designation="Dean of Student Affairs" image={dosa} phone='(91)-11-2659-1706' mail='deansa@admin.iitd.ac.in'/>
                 </div>
                 <div className="col-12 col-md-4">
-                    <ProfileCard name="Prof. Deepti Gupta" designation="Assosiate Dean Hostel Management" image={bhmp} phone='+91-11-2659 1417' email='adhm@admin.iitd.ac.in'/>
+                    <ProfileCard name="Prof. Deepti Gupta" designation="Associate Dean Hostel Management" image={bhmp} phone='+91-11-2659 1417' mail='adhm@admin.iitd.ac.in'/>
                 </div>
                 <div className="col-12 col-md-4">
-                    <ProfileCard name="Utkarsh Kr. Choudhary" designation="BHM General Secratary" image={bhmgs} phone='7979992002' email='bhmgsec@admin.iitd.ac.in'/>
+                    <ProfileCard name="Utkarsh Kr. Choudhary" designation="BHM General Secretary" image={bhmgs} phone='7979992002' mail='bhmgsec@admin.iitd.ac.in'/>
                 </div>
             </div>
         </div>

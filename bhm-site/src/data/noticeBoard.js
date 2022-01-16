@@ -1,42 +1,44 @@
 
 const notices = [
-    // Residents of IITD can avail Rapid Antigen Test facility near the Metro Gate near IIT Main Gate from 10 am to 5 pm daily. Along with this, RT-PCR test sample collection facility is also available. In addition to the above, arrangement has been made for Rapid Antigen Testing facility in the Triage Area near IIT Hospital in the campus from 10am to 5 pm daily from 8th Nov 2021  to 14th Nov 2021 on payment of Rs.50/-. Test report will be provided to there itself within 5-10 minutes.
-
-    // This is to inform all the onboarded students who have left recently for a short Diwali break, you are required to re-board hostels by 10th November, 2021 i.e. before the scheduled major exams. For this, you need to inform the hostel warden/caretaker (date and time of arrival). No need to apply again on ERP for approval process as previous approvals will hold. On arrival, all students are mandatorily required to undergo Rapid Antigen Test for Covid. If your arrival is delayed for a day or two beyond 10th November, please contact your hostel warden/caretaker to get permission for same. In this case, RT-PCR report (within 24hr) would be required on arrival in the hostel as a mandatory norm.
-
-    // Masala Mix is reopened to serve you all with their kulti cuisine from 12 in the afternoon till 11PM.  Visit it at its old location near Chaayos and bring back the sense of nostalgia with its delicious plethora of food.
     {
         date: new Date(),
-        heading: "Rapid Antigen Test facility",
-        notice: "Residents of IITD can avail Rapid Antigen Test facility near the Metro Gate near IIT Main Gate from 10 am to 5 pm daily. Along with this, RT-PCR test sample collection facility is also available. In addition to the above, arrangement has been made for Rapid Antigen Testing facility in the Triage Area near IIT Hospital in the campus from 10am to 5 pm daily from 8th Nov 2021  to 14th Nov 2021 on payment of Rs.50/-. Test report will be provided to there itself within 5-10 minutes.",
+        heading: "Establishment Charges",
+        notice: `Confused about the exact establishment charges? We've some good news for you! If you've onboarded and are on a temporary leave, then the mess charges for you would be ₹50 and NOT ₹60`,
         show: true
     },
     {
         date: new Date(),
-        heading: "Reboarding",
-        notice: "This is to inform all the onboarded students who have left recently for a short Diwali break, you are required to re-board hostels by 10th November, 2021 i.e. before the scheduled major exams. For this, you need to inform the hostel warden/caretaker (date and time of arrival). No need to apply again on ERP for approval process as previous approvals will hold. On arrival, all students are mandatorily required to undergo Rapid Antigen Test for Covid. If your arrival is delayed for a day or two beyond 10th November, please contact your hostel warden/caretaker to get permission for same. In this case, RT-PCR report (within 24hr) would be required on arrival in the hostel as a mandatory norm.",
+        heading: "Eating Outlets in Campus",
+        notice: `This is to bring into your notice that the eating outlets in the campus will only be open from 8 am and 5 pm. Only take-aways and delivery services from the outlets would be facilitated.`,
         show: true
     },
     {
         date: new Date(),
         heading: "Masala Mix",
-        notice: "Masala Mix is reopened to serve you all with their multi cuisine from 12 in the afternoon till 11PM.  Visit it at its old location near Chaayos and bring back the sense of nostalgia with its delicious plethora of food.",
+        notice: "The multi-cuisine restaurant Masala Mix is providing free delivery. It will be cashless and contactless; you may order from wherever on campus, including X-Hall, your dorms, and so on, so call 9810061748 or 8800309154 for takeout or delivery.",
+        show: false
+    },
+    {
+        date: new Date(),
+        heading: "Charges for Hostel/Apartment",
+        notice: "Please refer to the circular to find out the amount you've to pay in case you wish to board the hostel!",
+        link: `https://owncloud.iitd.ac.in/nextcloud/index.php/s/CkbBP3rigeMH3Sy`,
+        link_name: 'Circular',
         show: true
     },
     {
         date: new Date(),
-        heading: "Lorem ipsum dolor",
-        notice: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat consequat maximus. In convallis vel nisi at dapibus. Ut vulputate turpis eu lectus euismod pretium. Phasellus eget dignissim ipsum. Nulla vitae hendrerit ante, quis volutpat augue. Duis posuere eget nisl fringilla venenatis. Nulla fringilla dolor sit amet hendrerit maximus. Sed luctus, tellus eget rhoncus rutrum, mi lacus vestibulum sapien, eget faucibus urna justo vel nunc.",
-        hostel: "zanskar",
-        show: false
+        heading: "Central Library Timings",
+        notice: "To keep you safe from the spreading omicron infection, the timings for the operation of central library has been restricted from 9 am to 5 pm and the maximum capacity has been reduced to 25%. Also, you're not allowed to share your table with others since you never know if your friends are potential carriers of the infection.",
+        show: true
     },
     {
         date: new Date(),
-        heading: "Lorem ipsum dolor",
-        notice: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat consequat maximus. In convallis vel nisi at dapibus. Ut vulputate turpis eu lectus euismod pretium. Phasellus eget dignissim ipsum. Nulla vitae hendrerit ante, quis volutpat augue. Duis posuere eget nisl fringilla venenatis. Nulla fringilla dolor sit amet hendrerit maximus. Sed luctus, tellus eget rhoncus rutrum, mi lacus vestibulum sapien, eget faucibus urna justo vel nunc.",
-        hostel: "satpura",
-        show: false
+        heading: "Offline Exams for onboarded students",
+        notice: "Didn't deboard before Jan 3, and now worried about the rising spread of omicron virus? Keeping your health at the first priority, the administration has decided to let you deboard till 17th Jan. So, book your tickets if you really want to go back to your home and you don't need to worry about offline exams at all!",
+        show: true
     },
+    
 ]
 
 export default notices;

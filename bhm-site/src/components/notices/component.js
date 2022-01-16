@@ -11,6 +11,9 @@ function Notice(props) {
     <div className="notice-body mt-1">
       {props.body}
     </div>
+    <div className={"mt-1 "+(props.link?'':'d-none')}>
+      <a className='notice_link small text-dark fw-bold' href={props.link}>{props.link_name}</a>
+    </div>
   </div>
 }
 
@@ -21,9 +24,9 @@ function Notices() {
       <h2 class="heading">Notices</h2>
     </div>
     <div class="container">
-      <div className="notices text-left">
+      <div className="notices text-left ">
          {
-           notices.map((notice)=><div className={notice.show?'':'d-none'}><Notice title={notice.heading} body={notice.notice}/></div>)
+           notices.map((notice)=><div className={notice.show?'':'d-none'}><Notice link={notice.link} title={notice.heading} body={notice.notice} link_name={notice.link_name}/></div>)
          }
       </div>
     </div>

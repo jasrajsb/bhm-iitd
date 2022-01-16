@@ -25,3 +25,6 @@
 .notice{
   border-radius: 10px;
 }
+.notice_link{
+  font-weight: 500;
+}
