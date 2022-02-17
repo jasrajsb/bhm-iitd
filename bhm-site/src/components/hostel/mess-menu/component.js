@@ -1,12 +1,100 @@
 import './component.css'
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+
+function parseCSV(str) {
+    var arr = [];
+    var quote = false;  // 'true' means we're inside a quoted field
+
+    // Iterate over each character, keep track of current row and column (of the returned array)
+    for (var row = 0, col = 0, c = 0; c < str.length; c++) {
+        var cc = str[c], nc = str[c+1];        // Current character, next character
+        arr[row] = arr[row] || [];             // Create a new row if necessary
+        arr[row][col] = arr[row][col] || '';   // Create a new column (start with empty string) if necessary
+
+        // If the current character is a quotation mark, and we're inside a
+        // quoted field, and the next character is also a quotation mark,
+        // add a quotation mark to the current column and skip the next character
+        if (cc == '"' && quote && nc == '"') { arr[row][col] += cc; ++c; continue; }
+
+        // If it's just one quotation mark, begin/end quoted field
+        if (cc == '"') { quote = !quote; continue; }
+
+        // If it's a comma and we're not in a quoted field, move on to the next column
+        if (cc == ',' && !quote) { ++col; continue; }
+
+        // If it's a newline (CRLF) and we're not in a quoted field, skip the next character
+        // and move on to the next row and move to column 0 of that new row
+        if (cc == '\r' && nc == '\n' && !quote) { ++row; col = 0; ++c; continue; }
+
+        // If it's a newline (LF or CR) and we're not in a quoted field,
+        // move on to the next row and move to column 0 of that new row
+        if (cc == '\n' && !quote) { ++row; col = 0; continue; }
+        if (cc == '\r' && !quote) { ++row; col = 0; continue; }
+
+        // Otherwise, append the current character to the current column
+        arr[row][col] += cc;
+    }
+    return arr;
+}
+const process_mess_menu = (data)=>{
+    if(data) ; else return;
+    console.log(data)
+    const breakfast_timing = `${data[1][1]} ${data[1][2]} - ${data[1][3]} ${data[1][4]} `;
+    const lunch_timing = `${data[2][1]} ${data[2][2]} - ${data[2][3]} ${data[2][4]} `;
+    const dinner_timing = `${data[3][1]} ${data[3][2]} - ${data[3][3]} ${data[3][4]} `;
+    var menu = [];
+    (['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']).forEach((day_name, day_index)=>{
+        const day_menu = [];
+        for(var i=1; i<data.length; i++){
+            day_menu.push({
+                name: data[i][0],
+                menu: data[i][day_index+5],
+                time: `${data[i][1]} ${data[i][2]} - ${data[i][3]} ${data[i][4]} `
+            });
+        }
+        menu.push(
+            {
+                day:day_name,
+                menu: day_menu
+            },
+        )
+        
+    });
+    return menu;
+    
+
+}
+const fetch_mess_menu = async (sheet) => {
+    var data = await fetch(`https://docs.google.com/spreadsheets/d/e/${sheet}/pub?output=csv`).then(res => res.text()).then(data => process_mess_menu(parseCSV(data)));
+    console.log(data)
+    return data;
+};
 
 function Messmenu(props) {
 
     const [dayname, setDay] = useState('monday');
-
-    return <div id="mess-menu" className="container-fluid my-5">
+    const [show_menu, set_show_menu] = useState(false);
+    const [mess, set_menu] = useState({});
+    useEffect(() => {
+        fetch_mess_menu(props.mess_sheet).then((data)=>{
+            var temp = mess;
+            temp[props.hostel] = data;
+            set_menu(temp);
+            set_show_menu(true);
+        });
+      }, []);
+    if(!mess[props.hostel]&&show_menu){
+        set_show_menu(false);
+        fetch_mess_menu(props.mess_sheet).then((data)=>{
+            var temp = mess;
+            temp[props.hostel] = data;
+            set_menu(temp);
+            set_show_menu(true);
+        });
+    }
+    console.log(mess)
+    if(show_menu)return <div id="mess-menu" className="container-fluid my-5">
         <div className="heading pb-4">
             Mess Menu
         </div>
@@ -26,7 +114,7 @@ function Messmenu(props) {
         </div>
         <div id="menu-container" className="container mt-4">
             <div className="full-width">
-                {props.mess.map(day => {
+                {mess[props.hostel]&&mess[props.hostel].map(day => {
                     return <div className={"row full-width " + ((day.day.toString().toLowerCase() === dayname) ? '' : 'd-none')}>
                         {
                             day.menu.map(meal =>
@@ -52,6 +140,7 @@ function Messmenu(props) {
 
         </div>
     </div>
+    else return <></>
 
 }
 

@@ -30,7 +30,7 @@ function Hostel(props) {
     {/* <Alumni/> */}
     <StudentTeam secys={hostels[hostel]['secys']}/>
     {/* <Gallery images_json={girnar_gallery} /> */}
-    <MessMenu mess={hostels[hostel]['mess']}/>
+    <MessMenu mess={hostels[hostel]['mess'] } hostel={hostel} mess_sheet = {hostels[hostel]['mess_sheet']}/>
 
 
   </div>
