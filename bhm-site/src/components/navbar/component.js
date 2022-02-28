@@ -72,10 +72,10 @@ function Navbar() {
               Important Links
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="https://bhm.iitd.ac.in/" target="_blank" rel="noreferrer" >Board for Hostel Management</a>
               <a className="dropdown-item" href="https://eacademics.iitd.ac.in/" target="_blank" rel="noreferrer" >E Academics</a>
               <a className="dropdown-item" href="https://moodle.iitd.ac.in/" target="_blank" rel="noreferrer" >Moodle</a>
               <a className="dropdown-item" href="https://webmail.iitd.ac.in/roundcube" target="_blank" rel="noreferrer" >IITD Web Mail</a>
+              <a className="dropdown-item" href="https://home.iitd.ac.in/" target="_blank" rel="noreferrer" >IIT Delhi: Home Page</a>
               <a className="dropdown-item" href="http://ngu.iitd.ac.in/" target="_blank" rel="noreferrer" >NGU Portal</a>
               <a className="dropdown-item" href="https://infrasla.iitd.ac.in/netserv/" target="_blank" rel="noreferrer" >SLA for Networking Services</a>
               <a className="dropdown-item" href="https://internal.iitd.ernet.in/?q=content/ug-notices" target="_blank" rel="noreferrer" >Online UG Notice Board</a>
