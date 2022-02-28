@@ -72,6 +72,7 @@ function Navbar() {
               Important Links
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a className="dropdown-item" href="https://bhm.iitd.ac.in/" target="_blank" rel="noreferrer" >Board for Hostel Management</a>
               <a className="dropdown-item" href="https://eacademics.iitd.ac.in/" target="_blank" rel="noreferrer" >E Academics</a>
               <a className="dropdown-item" href="https://moodle.iitd.ac.in/" target="_blank" rel="noreferrer" >Moodle</a>
               <a className="dropdown-item" href="https://webmail.iitd.ac.in/roundcube" target="_blank" rel="noreferrer" >IITD Web Mail</a>

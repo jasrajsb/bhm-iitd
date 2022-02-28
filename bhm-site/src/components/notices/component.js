@@ -86,7 +86,7 @@ function Notices() {
         });
       }, []);
 
-  return !show_notices?<></>:<div className="my-5 py-5 bg-light">
+  return !show_notices?<></>:<div className="mt-5 py-5 bg-light">
     <div>
       <h2 class="heading">Notices</h2>
     </div>
