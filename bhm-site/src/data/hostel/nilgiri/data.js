@@ -15,7 +15,7 @@ var data = {
     vision: `We NilBulls focuses on providing best and memorable experience to all the students, while sharing knowledge, experiences and skills, making life lasting bonds and living the life to the fullest.`,
     vision: `To be a center of excellence in the provision of student accommodation services. To keep a check on facilities that students require to take this excellent hostel culture to another level.`,
     //fb: '',
-    insta: 'https://www.instagram.com/nilgiri.cultu/',
+    insta: 'https://instagram.com/nilgiri.iitd?utm_medium=copy_link',
     complaint: 'https://docs.google.com/forms/d/e/1FAIpQLSdLVjpieSUCgByssFVMTrqtFYtrETk6gGz-BbwV8hmxukw86A/viewform',
     location:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7009.4485023523785!2d77.18471567513988!3d28.54800692980469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1dedfabb3037%3A0x90f26baf0f426d24!2sNilgiri%20Cycle%20Parking!5e0!3m2!1sen!2sin!4v1640605054639!5m2!1sen!2sin',
     contact: [

@@ -9,7 +9,7 @@ var data = {
     hero: hero,
     introduction: `With your luggage on your shoulders, expectations in your mind, and dreams in your eyes, you enter this place called Girnar, which is one of the biggest hostels in IIT Delhi, with over 650 students and the newest hostel starting in 2010. Being a part of Girnar, you will find yourself in one of the most interactive places of IITD, whether it is the brotherhood with your wingmates or the seniors who are there to guide you every time. The night-outs together, inter wing culture, and the enthusiasm during the events has their own enigma. Even if it is the newest hostel, Girnar has established a remarkable legacy in recreational activities like debating, drama club, etc., and a great sports culture. Every pass-out takes with him the memories of this glory and heritage. Every fresher will feel the aura!`,
     vision: `To be a center of excellence in the provision of student accommodation services. To keep a check on facilities that students require to take this excellent hostel culture to another level.`,
-    //fb: '',
+    fb: 'https://www.facebook.com/GirnarIITD',
     insta: 'https://www.instagram.com/girnar_hostel_/',
     complaint: 'https://forms.gle/t1mgUqt2UY6aec446',
     location:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14019.99059001242!2d77.18436084581883!3d28.53979042707892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1df3f5af532f%3A0x5737e3577f8531c8!2sGirnar%20House!5e0!3m2!1sen!2sin!4v1640604207202!5m2!1sen!2sin",

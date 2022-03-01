@@ -13,6 +13,8 @@ var data = {
     
     Kumaon is not just a hostel. It is a very close-knit family, where everyone works hard to take themselves and the hostel to greater heights and have loads of fun along the way.
     `,
+    insta: 'https://instagram.com/almora.kumaon?utm_medium=copy_link',
+    complaint: 'https://forms.gle/rsRmYX9eK3mKWEtP7',
     vision: `To metamorphose cubs into tigers`,
     location:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.6915328771984!2d77.1827705150071!3d28.54899008245085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1db3cd8bd1e7%3A0xab78a0dc09709345!2sKumaon%20Hostel%20Basketball%20Half%20Court!5e0!3m2!1sen!2sin!4v1640981037831!5m2!1sen!2sin',
     contact: [
@@ -20,7 +22,7 @@ var data = {
             designation: 'Caretaker',
             name: 'Virendra Kumar Dubey',
             phone: '011 2659 6992',
-            email: 'a26430@admin.iitd.ac.in'
+            email: 'caretakerkumaon@admin.iitd.ac.in'
         },
         {
             designation: 'Warden',
