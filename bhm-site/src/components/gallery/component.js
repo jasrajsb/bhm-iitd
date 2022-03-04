@@ -38,8 +38,8 @@ export default function Gallery({ images_json }) {
                             return (
                                 <div className="">
                                     <div className="gallery-grid-item">
-                                        <img src={cover_image} alt={title} className="gallery-grid-cover" />
-                                        <div className='gallery-grid-card '>
+                                        <img src={cover_image} alt={title} className="gallery-grid-cover"/>
+                                        <div className='gallery-grid-card'>
                                             <p className='gallery-grid-title'>{title}</p>
                                             <button className="gallery-grid-btn" onClick={() => galleryFull(key + 1)}>More Images</button>
                                         </div>
