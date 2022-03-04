@@ -17,9 +17,9 @@ export default function component() {
         <div className="heading pb-5" style={{ paddingTop: "50px" }}>
           Resources
         </div>
-        <div className="row">
-          <div className="col">
-            <div className="card my-3 shadow-sm" style={{minWidth:"18rem"}}>
+        <div className="row gap-4">
+          <div className="col my-4">
+            <div className="card my-3 shadow-sm h-100" style={{minWidth:"18rem"}}>
               <div className="card-body">
                 <h5 className="card-title">Application for Short Stay:</h5>
                 <p className="card-text">
@@ -31,8 +31,8 @@ export default function component() {
               </div>
             </div>
           </div>
-          <div className="col">
-            <div className="card my-3 shadow-sm" style={{minWidth:"18rem"}}>
+          <div className="col my-4">
+            <div className="card my-3 shadow-sm h-100" style={{minWidth:"18rem"}}>
               <div className="card-body">
                 <h5 className="card-title">Mess Request</h5>
                 <p className="card-text">
@@ -44,8 +44,8 @@ export default function component() {
               </div>
             </div>
           </div>
-          <div className="col">
-            <div className="card my-3 shadow-sm" style={{minWidth:"18rem"}}>
+          <div className="col my-4">
+            <div className="card my-3 shadow-sm h-100" style={{minWidth:"18rem"}}>
               <div className="card-body">
                 <h5 className="card-title">Application for Hostel Extension:</h5>
                 <p className="card-text">
@@ -60,8 +60,8 @@ export default function component() {
               </div>
             </div>
           </div>
-          <div className="col">
-            <div className="card my-3 shadow-sm" style={{minWidth:"18rem"}}>
+          <div className="col my-4">
+            <div className="card my-3 shadow-sm h-100" style={{minWidth:"18rem"}}>
               <div className="card-body">
                 <h5 className="card-title">Mess Rebate</h5>
                 <p className="card-text">
@@ -73,8 +73,8 @@ export default function component() {
               </div>
             </div>
           </div>
-          <div className="col">
-            <div className="card my-3 shadow-sm" style={{minWidth:"18rem"}}>
+          <div className="col my-4">
+            <div className="card my-3 shadow-sm h-100" style={{minWidth:"18rem"}}>
               <div className="card-body">
                 <h5 className="card-title">Mess Security</h5>
                 <p className="card-text">
