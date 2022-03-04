@@ -91,9 +91,9 @@ function Navbar() {
           {/* <li className="nav-item">
             <a className="nav-link" target="_blank" rel="noreferrer"  href="https://docs.google.com/spreadsheets/d/1okeMA5gB62KvVrHQQuwZ4vNKg38NBybJE7F7h7HmBU4/edit#gid=0">Off Campus Accommodation</a>
           </li> */}
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a className="nav-link" target="_blank" rel="noreferrer"  href="">Hostel Rules</a>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link className="nav-link" to="/faqs">FAQs</Link>
           </li>
