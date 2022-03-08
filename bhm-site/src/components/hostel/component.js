@@ -8,8 +8,8 @@ import StudentTeam from './hostel-student-team/component';
 import Hero from './hostel-hero/component';
 import hostels from '../../data/hostel/hostel';
 import MessMenu from './mess-menu/component';
-//import Gallery from '../gallery/component';
-//import _template_for_gallery from '../gallery/_template_for_gallery';
+import Gallery from '../gallery/component';
+import _template_for_gallery from '../gallery/_template_for_gallery';
 //import girnar_gallery from '../gallery/GirnarImages';
 
 // function capitalize(string) {
@@ -29,7 +29,7 @@ function Hostel(props) {
     <ContactUs contact={hostels[hostel]['contact']}/>
     {/* <Alumni/> */}
     <StudentTeam secys={hostels[hostel]['secys']}/>
-    {/*<Gallery images_json={girnar_gallery}/>*/}
+    <Gallery images_json={_template_for_gallery}/>
     <MessMenu mess={hostels[hostel]['mess'] } hostel={hostel} mess_sheet = {hostels[hostel]['mess_sheet']}/>
   </div>
 
