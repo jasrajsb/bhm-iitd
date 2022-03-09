@@ -24,26 +24,32 @@ var data = {
     contact: [
         {
             designation: 'Caretaker',
-            name: 'Avilash',
-            phone: '+91 9871711012',
+            name: 'Sushma Mudgal',
+            phone: '+91 9650061214',
             email: 'caretakerkailash@admin.iitd.ac.in'
         },
         {
-            designation: 'Caretaker',
-            name: '',
-            phone: '+91 9650061214',
+            designation: 'Assistant Caretaker',
+            name: 'Avilash Singh',
+            phone: '+91 9871711012',
         },
         {
             designation: 'Warden',
             name: 'Joyee Ghosh',
             phone: '+91 9810401256',
-            email: 'joyee@physics.iitd.ac.in'
+            email: 'wdnmkai@admin.iitd.ac.in'
         },
         {
-            designation: 'Reception',
-            name: '⠀',
-            phone: '+91 11 2659 6826',
-            email: '⠀'
+            designation: 'Mess Supervisor',
+            name: 'Pramod Kumar',
+            phone: '+91 9312805085',
+            email: ''
+        },
+        {
+            designation: 'Mess manager',
+            name: 'Rohit',
+            phone: '+91 9990444765',
+            email: ''
         }
     ],
     secys: [
