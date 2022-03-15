@@ -24,14 +24,15 @@ var data = {
     contact: [
         {
             designation: 'Caretaker',
-            name: 'Sushma Mudgal',
-            phone: '+91 9650061214',
-            email: 'caretakerkailash@admin.iitd.ac.in'
+            name: 'Avilash Singh',
+            phone: '+91 9871711012',
+    
         },
         {
             designation: 'Assistant Caretaker',
-            name: 'Avilash Singh',
-            phone: '+91 9871711012',
+            name: 'Sushma Mudgal',
+            phone: '+91 9650061214',
+            email:'caretakerkailash@admin.iitd.ac.in'
         },
         {
             designation: 'Warden',
@@ -40,16 +41,14 @@ var data = {
             email: 'wdnmkai@admin.iitd.ac.in'
         },
         {
-            designation: 'Mess Supervisor',
+            designation: 'Mess Manager',
             name: 'Pramod Kumar',
             phone: '+91 9312805085',
-            email: ''
         },
         {
-            designation: 'Mess manager',
+            designation: 'Mess Assistant',
             name: 'Rohit',
             phone: '+91 9990444765',
-            email: ''
         }
     ],
     secys: [
