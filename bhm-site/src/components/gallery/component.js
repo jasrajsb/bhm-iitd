@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./component.css";
 import FullCarousel from "./FullCarousel";
+import "./gallery_component.css";
 
 export default function Gallery({ images_json }) {
 	const [images, setImages] = useState([]);
@@ -8,10 +8,8 @@ export default function Gallery({ images_json }) {
 
 	console.log(images_json);
 	const galleryFull = s => {
-		// let images1 = (s === 'Title1') ? AravaliImages : (s === 'Title2') ? GirnarImages : (s === 'Title3') ? HimadriImages : (s === 'Title4') ? JwalaImages : (s === 'Title5') ? KailashImages : [];
 		let images1 = images_json[s].images;
 		setImages(prevImages => images1);
-		// console.log(images);
 		setFullCarouselOpen(true);
 		document.body.style.overflow = "hidden";
 	};

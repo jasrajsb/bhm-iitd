@@ -4,13 +4,6 @@
 	box-sizing: border-box;
 }
 
-.gallery-images {
-	/* height: 60vh !important; */
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
-}
-
 .gallery-grid {
 	z-index: 2;
 	display: grid;
@@ -31,10 +24,12 @@
 }
 
 .gallery-grid-cover {
-	object-fit: cover;
+	object-fit: contain;
 	height: 40em;
 	z-index: 3;
 	transition: filter 200ms ease-in-out;
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
 }
 
 .gallery-grid-card {
