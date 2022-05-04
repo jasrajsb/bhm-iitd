@@ -5,10 +5,11 @@ import short_stay from '../../assets/short_stay.pdf';
 import mess_req from '../../assets/mess_req.pdf';
 import hostel_extn_nphd from '../../assets/hostel_extn_nphd.pdf';
 import hostel_extn_phd from '../../assets/hostel_extn_phd.pdf';
-
 import mess_rebate from '../../assets/mess_rebate.pdf';
 import mess_security_refund from '../../assets/mess_security_refund.pdf';
 import rail_concession from '../../assets/rail_concession.pdf';
+import HRA from '../../assets/HRA.pdf';
+import non_messing from '../../assets/Application_for_Non-Messing_facility.pdf'
 
 export default function component() {
   return (
@@ -73,6 +74,7 @@ export default function component() {
               </div>
             </div>
           </div>
+
           <div className="col my-4">
             <div className="card my-3 shadow-sm h-100" style={{minWidth:"18rem"}}>
               <div className="card-body">
@@ -81,6 +83,35 @@ export default function component() {
                 Time to leave hostel? We want your memories to stay but not your mess security fees. Fill this form to claim your mess security fees
                 </p>
                 <a href={mess_security_refund} className="btn btn-dark btn-sm" target="_blank" rel="noreferrer">
+                  Open Form
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col my-4">
+            <div className="card my-3 shadow-sm h-100" style={{minWidth:"18rem"}}>
+              <div className="card-body">
+                <h5 className="card-title">House Rent Allowance</h5>
+                <p className="card-text">
+                Fill up this form to claim your housing rent allowance from IIT Delhi! Also, don't forget to read the terms and conditions carefully.
+                </p>
+                <a href={HRA} className="btn btn-dark btn-sm" target="_blank" rel="noreferrer">
+                  Open Form
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col my-4">
+            <div className="card my-3 shadow-sm h-100" style={{minWidth:"18rem"}}>
+              <div className="card-body">
+                <h5 className="card-title">Non-messing Facility</h5>
+                <p className="card-text">
+                Want to opt out of the messing facilities? Fill this form to do so!
+                Applicable to the residents of Nalanda hostel only!
+                </p>
+                <a href={non_messing} className="btn btn-dark btn-sm" target="_blank" rel="noreferrer">
                   Open Form
                 </a>
               </div>
