@@ -9,12 +9,12 @@ function Hero(props) {
                 <div className="hostel-hero" >
                     <div className="container-fluid full-height">
                         <div className="hero-content">
-                            <img src={props.hero} alt="" className="img-cover hero-img" loading="lazy"/>
+                            <img src={props.hero} alt="" className="img-cover hero-img"/>
                         </div>
                     </div>
                     <div className="hero-card p-4 text-left">
                         <div className="mb-4">
-                        <span><img src={props.logo} alt="" className="hostel-logo" loading="lazy"/></span>
+                        <span><img src={props.logo} alt="" className="hostel-logo"/></span>
                         <span className="hostel-name ml-2">{props.hostel} Hostel</span>
                         </div>
                         <div className="container-fluid">
@@ -34,7 +34,7 @@ function Hero(props) {
                                 </div>
                                 <div className="col mb-1">
                                     <div className="col-heading mb-1">Location</div>
-                                    <iframe className="map" src={props.location} allowfullscreen="" loading="lazy"/>
+                                    <iframe className="map" src={props.location} allowfullscreen=""/>
                                 </div>
                             </div>
                         </div>
