@@ -1,10 +1,10 @@
-import hero from './hero.jpeg';
-import house from './house.jpg';
-import maint from './maint.jpg';
-import cult from './cult.jpg';
-import mess from './mess.jpeg';
-import sac from './sac.jpg';
-import sports from './sports.jpg';
+import hero from './hero.webp';
+import house from './house.webp';
+import maint from './maint.webp';
+import cult from './cult.webp';
+import mess from './mess.webp';
+import sac from './sac.webp';
+import sports from './sports.webp';
 var data = {
     hero: hero,
     introduction: `Zanskar is one of IIT Delhi's 13 boys hostels named after the Zanskar region near Himalaya range. It houses approximately 450 residents from diverse fields such as B.Tech, M.Tech, M.Des, PhD, and MBA. In 2020, it has received 141 new entries in just B.Tech! Zanskar is the only boys hostel that boasts an Open Air Theatre.

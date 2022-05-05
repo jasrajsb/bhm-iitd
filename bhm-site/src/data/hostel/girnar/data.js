@@ -1,10 +1,10 @@
-import hero from './hero.jpg';
-import house from './house.jpg';
-import maint from './maint.jpg';
-import cult from './cult.jpg';
-import mess from './mess.jpg';
-import sac from './sac.jpg';
-import sports from './sports.jpg';
+import hero from './hero.webp';
+import house from './house.webp';
+import maint from './maint.webp';
+import cult from './cult.webp';
+import mess from './mess.webp';
+import sac from './sac.webp';
+import sports from './sports.webp';
 var data = {
     hero: hero,
     introduction: `With your luggage on your shoulders, expectations in your mind, and dreams in your eyes, you enter this place called Girnar, which is one of the biggest hostels in IIT Delhi, with over 650 students and the newest hostel starting in 2010. Being a part of Girnar, you will find yourself in one of the most interactive places of IITD, whether it is the brotherhood with your wingmates or the seniors who are there to guide you every time. The night-outs together, inter wing culture, and the enthusiasm during the events has their own enigma. Even if it is the newest hostel, Girnar has established a remarkable legacy in recreational activities like debating, drama club, etc., and a great sports culture. Every pass-out takes with him the memories of this glory and heritage. Every fresher will feel the aura!`,

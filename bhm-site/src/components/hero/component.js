@@ -1,9 +1,8 @@
 import './component.css'
-import Gallery1 from './gallery1.jpg';
-import Gallery2 from "./gallery2.jpg";
-import Gallery3 from "./gallery3.jpg";
-import Gallery4 from "./gallery4.jpg";
-
+import Gallery1 from './../../assets/gallery1.webp';
+import Gallery2 from "./../../assets/gallery2.webp";
+import Gallery3 from "./../../assets/gallery3.webp";
+import Gallery4 from "./../../assets/gallery4.webp";
 
 function Hero() {
     return <div className="">
@@ -16,16 +15,16 @@ function Hero() {
   </ol>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img className="d-block w-100 imagic" src={Gallery1} alt="First slide" style={{objectFit:"cover", height:"600px"}}/>
+      <img className="d-block w-100 imagic" src={Gallery1} alt="First slide" loading="lazy" style={{objectFit:"cover", height:"600px"}}/>
     </div>
     <div className="carousel-item">
-      <img className="d-block w-100 imagic" src={Gallery2} alt="Second slide" style={{objectFit:"cover", height:"600px"}}/>
+      <img className="d-block w-100 imagic" src={Gallery2} alt="Second slide" loading="lazy" style={{objectFit:"cover", height:"600px"}}/>
     </div>
     <div className="carousel-item">
-      <img className="d-block w-100 imagic" src={Gallery3} alt="Second slide" style={{objectFit:"cover", height:"600px"}}/>
+      <img className="d-block w-100 imagic" src={Gallery3} alt="Second slide" loading="lazy" style={{objectFit:"cover", height:"600px"}}/>
     </div>
     <div className="carousel-item">
-      <img className="d-block w-100 imagic" src={Gallery4} alt="Second slide" style={{objectFit:"cover", height:"600px"}}/>
+      <img className="d-block w-100 imagic" src={Gallery4} alt="Second slide" loading="lazy" style={{objectFit:"cover", height:"600px"}}/>
     </div>
   </div>
   <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

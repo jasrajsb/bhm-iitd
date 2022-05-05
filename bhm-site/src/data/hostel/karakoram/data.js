@@ -1,10 +1,10 @@
-import hero from './hero.jpg';
-import house from './house.jpg';
-import maint from './maint.jpg';
-import cult from './cult.jpg';
-import mess from './mess.jpg';
-import sac from './sac.jpg';
-import sports from './sports.jpg';
+import hero from './hero.webp';
+import house from './house.webp';
+import maint from './maint.webp';
+import cult from './cult.webp';
+import mess from './mess.webp';
+import sac from './sac.webp';
+import sports from './sports.webp';
 var data = {
     hero: hero,
     introduction: `Karakoram is one of IIT Delhi's 13 boys hostels named after the Karakoram mountain ranges. It houses approximately 500 residents from diverse fields such as B.Tech, M.Tech, M.Des, Phd, and MBA. Karakoram was granted the Board for Hostel Management (BHM) Trophy for 2016-17, indicating that the hostel provides the greatest facilities at IIT. It has a well-organised common room with excellent facilities. The Indoor Sports Room comprises Table Tennis, Foosball, Carrom and Darts`,

@@ -1,10 +1,10 @@
-import hero from './hero.jpg';
-import house from './house.jpg';
-import maint from './maint.jpg';
-import cult from './cult.jpg';
-import mess from './mess.jpg';
-import sac from './sac.jpg';
-import sports from './sports.jpg';
+import hero from './hero.webp';
+import house from './house.webp';
+import maint from './maint.webp';
+import cult from './cult.webp';
+import mess from './mess.webp';
+import sac from './sac.webp';
+import sports from './sports.webp';
 var data = {
     hero: hero,
     introduction: `Inaugurated in 2012, Udaigiri is the youngest hostel of IIT Delhi. Enabled with elevators, gym and known for its delicious Monday mess dinners, it's one of the largest hostels in the campus. In a short span of 9 remarkable years, we developed a strong culture in recreational activities like dance, art, debating, photography and many more. With all its facilities and friendly staff, Udaigiri will make you feel at home.`,

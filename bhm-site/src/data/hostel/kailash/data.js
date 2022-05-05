@@ -1,10 +1,10 @@
-import hero from './hero.jpg';
-import house from './house.jpg';
-import maint from './maint.jpg';
-import cult from './cult.jpg';
-import mess from './mess.jpg';
-import sac from './sac.jpg';
-import sports from './sports.jpg';
+import hero from './hero.webp';
+import house from './house.webp';
+import maint from './maint.webp';
+import cult from './cult.webp';
+import mess from './mess.webp';
+import sac from './sac.webp';
+import sports from './sports.webp';
 var data = {
     hero: hero,
     introduction: `Kailash hostel indeed consists of students filled with enthusiasm and hostel spirit. There's a constant urge for everyone to be a part and take the culture in Kailash to great heights. Be it the BHM trophy, BRCA trophy, BSA, BSP,  Kailash has year over year proven to be worthy and has given a fierce front. The sigil painting, beautifully decorating the back entrance of Kailash won the first prize. Not only this, Kailash stood second in BHM trophy in 2019 (confirm year) and xyz in BSP trophy.

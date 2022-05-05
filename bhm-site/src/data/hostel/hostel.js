@@ -15,20 +15,20 @@ import kumaon from './kumaon/data';
 
 
 
-import aravali_logo from './aravali/logo.jpg';
-import girnar_logo from './girnar/logo.jpg';
-import jwalamukhi_logo from './jwalamukhi/logo.jpg';
-import karakoram_logo from './karakoram/logo.jpg';
-import nilgiri_logo from './nilgiri/logo.jpg';
-import shivalik_logo from './shivalik/logo.jpg';
-import satpura_logo from './satpura/logo.jpg';
-import udaigiri_logo from './udaigiri/logo.jpg';
-import vindhyachal_logo from './vindhyachal/logo.jpg';
-import zanskar_logo from './zanskar/logo.jpg';
-import kailash_logo from './kailash/logo.jpg';
-import himadri_logo from './himadri/logo.jpg';
+import aravali_logo from './aravali/logo.webp';
+import girnar_logo from './girnar/logo.webp';
+import jwalamukhi_logo from './jwalamukhi/logo.webp';
+import karakoram_logo from './karakoram/logo.webp';
+import nilgiri_logo from './nilgiri/logo.webp';
+import shivalik_logo from './shivalik/logo.webp';
+import satpura_logo from './satpura/logo.webp';
+import udaigiri_logo from './udaigiri/logo.webp';
+import vindhyachal_logo from './vindhyachal/logo.webp';
+import zanskar_logo from './zanskar/logo.webp';
+import kailash_logo from './kailash/logo.webp';
+import himadri_logo from './himadri/logo.webp';
 // import new_kailash_logo from './new_kailash/logo.jpg';
-import kumaon_logo from './kumaon/logo.jpg';
+import kumaon_logo from './kumaon/logo.webp';
 
 
 var data = {};

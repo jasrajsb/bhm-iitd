@@ -1,10 +1,10 @@
-import hero from './hero.jpg';
-import house from './house.jpg';
-import maint from './maint.jpg';
-import cult from './cult.jpg';
-import mess from './mess.jpg';
-import sac from './sac.jpg';
-import sports from './sports.jpg';
+import hero from './hero.webp';
+import house from './house.webp';
+import maint from './maint.webp';
+import cult from './cult.webp';
+import mess from './mess.webp';
+import sac from './sac.webp';
+import sports from './sports.webp';
 var data = {
     hero: hero,
     introduction: `Himadri is one of the three girls hostel at IIT Delhi . It accommodates around 550 residents from various streams-Btech , Phd etc. The hostel has a fully functional mess, along with air-conditioned visitor’s room , reading room , music room , Gym , pool table , Dance area and other recreational facilities including a common room . There is even the facility of washing machines, badminton court,other sports equipments and balconies are present on each floor. Himadri has a legacy in BSP(Board for Student Publications) , producing the most journos and chief Eds consistently. Apart from this , various cultural events are organized annually for the residents- Karaoke night, movie nights etc. We also have a flourishing sports culture with people participating enthusiastically in various sport events across the year. The achievements of Himadri in sports range from spectacular victories in inter hostels to creating new records as well as winning the matches for their teams in inter IITs.`,

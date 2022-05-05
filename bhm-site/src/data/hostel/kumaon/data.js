@@ -1,10 +1,10 @@
-import hero from './hero.jpg';
-import house from './house.jpg';
-import maint from './maint.jpg';
-import cult from './cult.jpg';
-import mess from './mess.jpg';
-import sac from './sac.jpg';
-import sports from './sports.jpg';
+import hero from './hero.webp';
+import house from './house.webp';
+import maint from './maint.webp';
+import cult from './cult.webp';
+import mess from './mess.webp';
+import sac from './sac.webp';
+import sports from './sports.webp';
 var data = {
     hero: hero,
     introduction: `Established in 1969, Kumaon House has always had a rich legacy in cultural and sports, evident through its remarkable achievements in BRCA, BSA, and BSP trophies over the years. It is famous on the campus that the RCA trophy had to be shut down temporarily due to the over domination of Kumaon. When it was reinstated, Kumaon won the RCA again, consecutively in 2019-20 and 2020-21. Further, Kumaon has won the GC consecutively five times, which is the longest streak in the trophy history. 

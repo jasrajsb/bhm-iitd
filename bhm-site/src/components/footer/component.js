@@ -31,12 +31,6 @@ function Footer() {
                     </ul>
                 </div>
             </div>
-            {/* </div>
-        <div className="container"> */}
-            {/* <div className="">
-                <h3 className="font-weight-bold text-center">Contact Us</h3>
-                <hr />
-            </div> */}
             <div className="container">
                 <div className="row">
                     <div className="">
@@ -48,19 +42,7 @@ function Footer() {
                         </ul>
                         <br />
                     </div>
-                    {/* <div className="col-md-6">
-                    <form>
-                        <fieldset className="form-group">
-                            <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Enter email" />
-                        </fieldset>
-                        <fieldset className="form-group">
-                            <textarea className="form-control" id="exampleMessage" placeholder="Message"></textarea>
-                        </fieldset>
-                        <fieldset className="form-group text-xs-right">
-                            <button type="submit" className="btn btn-secondary-outline btn-lg">Submit</button>
-                        </fieldset>
-                    </form>
-                </div> */}
+                    
                 </div>
             </div>
             <hr className="m-0" />
@@ -69,10 +51,6 @@ function Footer() {
             </div>
 
         </div>
-        {/* <div className="enquire mr-5">
-            <Link to="/hostel/#" >Enquire Now</Link>
-        </div> */}
-        {/* <h5 style={{ float: "left" }} className="ml-5">Copyright &#169; 2021 BHM IIT Delhi</h5> */}
     </div>
 }
 

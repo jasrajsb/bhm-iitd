@@ -1,6 +1,4 @@
 import './component.css'
-// import hero from './hero_original.jpg';
-// import hostel_logo from '../../../data/hostel/aravali/logo.jpg';
 import React, { useEffect } from 'react';
 
 function Hero(props) {
@@ -11,12 +9,12 @@ function Hero(props) {
                 <div className="hostel-hero" >
                     <div className="container-fluid full-height">
                         <div className="hero-content">
-                            <img src={props.hero} alt="" className="img-cover hero-img"/>
+                            <img src={props.hero} alt="" className="img-cover hero-img" loading="lazy"/>
                         </div>
                     </div>
                     <div className="hero-card p-4 text-left">
                         <div className="mb-4">
-                        <span><img src={props.logo} alt="" className="hostel-logo"/></span>
+                        <span><img src={props.logo} alt="" className="hostel-logo" loading="lazy"/></span>
                         <span className="hostel-name ml-2">{props.hostel} Hostel</span>
                         </div>
                         <div className="container-fluid">

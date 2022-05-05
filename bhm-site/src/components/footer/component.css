@@ -3,21 +3,6 @@
 	margin-top: auto;
 }
 
-/* .fa-facebook {
-	color: #3b5998;
-}
-
-.fa-instagram {
-	color: #f09433;
-}
-
-.fa-youtube {
-	color: #ff0000;
-}
-
-.fa-twitter {
-	color: #1d9bf0;
-} */
 
 .contact-icon {
 	opacity: 0.8;
@@ -29,7 +14,6 @@
 
 .contact-li:hover .contact-icon {
 	opacity: 1;
-	/* -webkit-text-stroke: 1px black; */
 }
 .contact-li{
 	width:25px;

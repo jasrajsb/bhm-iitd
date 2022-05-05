@@ -1,13 +1,11 @@
 import React from "react";
 import './component.css';
-import guest_stay from '../../assets/guest_stay.pdf';
 import short_stay from '../../assets/short_stay.pdf';
 import mess_req from '../../assets/mess_req.pdf';
 import hostel_extn_nphd from '../../assets/hostel_extn_nphd.pdf';
 import hostel_extn_phd from '../../assets/hostel_extn_phd.pdf';
 import mess_rebate from '../../assets/mess_rebate.pdf';
 import mess_security_refund from '../../assets/mess_security_refund.pdf';
-import rail_concession from '../../assets/rail_concession.pdf';
 import HRA from '../../assets/HRA.pdf';
 import non_messing from '../../assets/Application_for_Non-Messing_facility.pdf'
 

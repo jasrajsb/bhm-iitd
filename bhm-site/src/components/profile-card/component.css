@@ -13,7 +13,6 @@
   right: 20px;
   width: CALC(100% - 40px);
   filter: blur(30px);
-  /* opacity: 0.65; */
   z-index: 3;
 }
 .profile-img-main {
@@ -63,7 +62,4 @@
 .social-icons{
   margin-left: -5px;
   margin-top: 5px;
-}
-.social-icons>a>i{
-  /* font-size: smaller; */
 }
