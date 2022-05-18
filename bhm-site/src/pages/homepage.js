@@ -1,17 +1,21 @@
-import AboutUs from '../components/about-us/component';
-import TeamStucture from '../components/team-structure/component';
-import Chiefs from '../components/chiefs/component';
+import { Suspense,lazy } from 'react';
 import Hero from '../components/hero/component';
-import Notices from '../components/notices/component';
+
+const AboutUs = lazy(()=>import('../components/about-us/component'));
+const Notices = lazy(()=>import('../components/notices/component'));
+const TeamStucture= lazy(()=>import('../components/team-structure/component'));
+const Chiefs = lazy(()=>import('../components/chiefs/component'));
 
 const Homepage = function () {
-    return <div>
+    return <>
         <Hero />
-        <AboutUs />
-        <Notices />
-        <TeamStucture/>
-        <Chiefs />
-    </div>
+        <Suspense fallback={<div/>}>
+            <AboutUs />
+            <Notices />
+            <TeamStucture/>
+            <Chiefs />
+        </Suspense>
+    </>
 }
 
 export default Homepage;
