@@ -125,7 +125,7 @@ export default function component() {
                 Types of hostel accommodation, hostel tenure, allotment policy and hostel charges applicable for Semester-1 2022-2023
                 </p>
                 <a href={hostel_accomodation} className="btn btn-dark btn-sm" target="_blank" rel="noreferrer">
-                  Open Form
+                  Download Pdf
                 </a>
               </div>
             </div>
