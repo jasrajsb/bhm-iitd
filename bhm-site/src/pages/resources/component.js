@@ -7,7 +7,8 @@ import hostel_extn_phd from '../../assets/hostel_extn_phd.pdf';
 import mess_rebate from '../../assets/mess_rebate.pdf';
 import mess_security_refund from '../../assets/mess_security_refund.pdf';
 import HRA from '../../assets/HRA.pdf';
-import non_messing from '../../assets/Application_for_Non-Messing_facility.pdf'
+import non_messing from '../../assets/Application_for_Non-Messing_facility.pdf';
+import hostel_accomodation from '../../assets/hostelAccomodation.pdf';
 
 export default function component() {
   return (
@@ -110,6 +111,20 @@ export default function component() {
                 Applicable to the residents of Nalanda hostel only!
                 </p>
                 <a href={non_messing} className="btn btn-dark btn-sm" target="_blank" rel="noreferrer">
+                  Open Form
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col my-4">
+            <div className="card my-3 shadow-sm h-100" style={{minWidth:"18rem"}}>
+              <div className="card-body">
+                <h5 className="card-title">Hostel Accommodation</h5>
+                <p className="card-text">
+                Types of hostel accommodation, hostel tenure, allotment policy and hostel charges applicable for Semester-1 2022-2023
+                </p>
+                <a href={hostel_accomodation} className="btn btn-dark btn-sm" target="_blank" rel="noreferrer">
                   Open Form
                 </a>
               </div>
