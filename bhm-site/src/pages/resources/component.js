@@ -9,6 +9,9 @@ import mess_security_refund from '../../assets/mess_security_refund.pdf';
 import HRA from '../../assets/HRA.pdf';
 import non_messing from '../../assets/Application_for_Non-Messing_facility.pdf';
 import hostel_accomodation from '../../assets/hostelAccomodation.pdf';
+import Married from '../../assets/married.pdf';
+import GuestForm from '../../assets/Guest_form_non_IITD_students.pdf';
+
 
 export default function component() {
   return (
@@ -126,6 +129,34 @@ export default function component() {
                 </p>
                 <a href={hostel_accomodation} className="btn btn-dark btn-sm" target="_blank" rel="noreferrer">
                   Download Pdf
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col my-4">
+            <div className="card my-3 shadow-sm h-100" style={{minWidth:"18rem"}}>
+              <div className="card-body">
+                <h5 className="card-title">Married Accommodation</h5>
+                <p className="card-text">
+                  Application Form for Married Accommodation {"("}On-Campus{")"}
+                </p>
+                <a href={Married} className="btn btn-dark btn-sm" target="_blank" rel="noreferrer">
+                  Open Form
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col my-4">
+            <div className="card my-3 shadow-sm h-100" style={{minWidth:"18rem"}}>
+              <div className="card-body">
+                <h5 className="card-title">Guest Stay</h5>
+                <p className="card-text">
+                  Application for Guest stay in the hostel {"("}For Non-IITD Students{")"}
+                </p>
+                <a href={GuestForm} className="btn btn-dark btn-sm" target="_blank" rel="noreferrer">
+                  Open Form
                 </a>
               </div>
             </div>
